@@ -18,8 +18,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/",
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/",
 					"three/nodes": "./jsm/nodes/Nodes.js"
 				}
 			}
@@ -68,11 +68,11 @@
 
 				const textureLoader = new THREE.TextureLoader();
 
-				const normalMapTexture = textureLoader.load( './https://Leexiaop.github.io/statics/threejs_offical_resource/textures/water/Water_1_M_Normal.jpg' );
+				const normalMapTexture = textureLoader.load( './https://Leexiaop.github.io/static/threejs_offical_resource/textures/water/Water_1_M_Normal.jpg' );
 				normalMapTexture.wrapS = THREE.RepeatWrapping;
 				normalMapTexture.wrapT = THREE.RepeatWrapping;
 
-				const alphaTexture = textureLoader.load( './https://Leexiaop.github.io/statics/threejs_offical_resource/textures/roughness_map.jpg' );
+				const alphaTexture = textureLoader.load( './https://Leexiaop.github.io/static/threejs_offical_resource/textures/roughness_map.jpg' );
 				alphaTexture.wrapS = THREE.RepeatWrapping;
 				alphaTexture.wrapT = THREE.RepeatWrapping;
 

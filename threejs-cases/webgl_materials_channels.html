@@ -20,8 +20,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -134,9 +134,9 @@
 				// textures
 
 				const textureLoader = new THREE.TextureLoader();
-				const normalMap = textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/obj/ninja/normal.png' );
-				const aoMap = textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/obj/ninja/ao.jpg' );
-				const displacementMap = textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/obj/ninja/displacement.jpg' );
+				const normalMap = textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/obj/ninja/normal.png' );
+				const aoMap = textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/obj/ninja/ao.jpg' );
+				const displacementMap = textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/obj/ninja/displacement.jpg' );
 
 				// material
 
@@ -208,7 +208,7 @@
 				//
 
 				const loader = new OBJLoader();
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/obj/ninja/ninjaHead_Low.obj', function ( group ) {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/obj/ninja/ninjaHead_Low.obj', function ( group ) {
 
 					const geometry = group.children[ 0 ].geometry;
 					geometry.center();

@@ -77,8 +77,8 @@
 	<script type="importmap">
 		{
 			"imports": {
-				"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-				"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+				"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+				"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 			}
 		}
 	</script>
@@ -134,7 +134,7 @@
 
 			material = new THREE.RawShaderMaterial( {
 				uniforms: {
-					'map': { value: new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/sprites/circle.png' ) },
+					'map': { value: new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/sprites/circle.png' ) },
 					'time': { value: 0.0 }
 				},
 				vertexShader: document.getElementById( 'vshader' ).textContent,

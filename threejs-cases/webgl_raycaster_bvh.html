@@ -31,8 +31,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/",
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/",
 					"three-mesh-bvh": "https://unpkg.com/three-mesh-bvh@0.6.0/build/index.module.js"
 				}
 			}
@@ -124,7 +124,7 @@
 
 				// load the bunny
 				const loader = new FBXLoader();
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/fbx/stanford-bunny.fbx', object => {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/fbx/stanford-bunny.fbx', object => {
 
 					mesh = object.children[ 0 ];
 

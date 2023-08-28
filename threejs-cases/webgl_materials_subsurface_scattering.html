@@ -21,8 +21,8 @@
 	<script type="importmap">
 		{
 			"imports": {
-				"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-				"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+				"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+				"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 			}
 		}
 	</script>
@@ -99,10 +99,10 @@
 		function initMaterial() {
 
 			const loader = new THREE.TextureLoader();
-			const imgTexture = loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/fbx/white.jpg' );
+			const imgTexture = loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/fbx/white.jpg' );
 			imgTexture.colorSpace = THREE.SRGBColorSpace;
 
-			const thicknessTexture = loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/fbx/bunny_thickness.jpg' );
+			const thicknessTexture = loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/fbx/bunny_thickness.jpg' );
 			imgTexture.wrapS = imgTexture.wrapT = THREE.RepeatWrapping;
 
 			const shader = SubsurfaceScatteringShader;
@@ -132,7 +132,7 @@
 			// LOADER
 
 			const loaderFBX = new FBXLoader();
-			loaderFBX.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/fbx/stanford-bunny.fbx', function ( object ) {
+			loaderFBX.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/fbx/stanford-bunny.fbx', function ( object ) {
 
 				model = object.children[ 0 ];
 				model.position.set( 0, 0, 10 );

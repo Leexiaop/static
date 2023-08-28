@@ -18,8 +18,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -95,7 +95,7 @@
 
 				};
 
-				new EXRLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/piz_compressed.exr', function ( texture ) {
+				new EXRLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/piz_compressed.exr', function ( texture ) {
 
 					texture.mapping = THREE.EquirectangularReflectionMapping;
 
@@ -104,7 +104,7 @@
 
 				} );
 
-				new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/equirectangular.png', function ( texture ) {
+				new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/equirectangular.png', function ( texture ) {
 
 					texture.mapping = THREE.EquirectangularReflectionMapping;
 					texture.colorSpace = THREE.SRGBColorSpace;

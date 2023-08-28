@@ -21,8 +21,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/",
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/",
 					"three/nodes": "./jsm/nodes/Nodes.js"
 				}
 			}
@@ -72,7 +72,7 @@
 				const rgbmUrls = [ 'px.png', 'nx.png', 'py.png', 'ny.png', 'pz.png', 'nz.png' ];
 				const cube1Texture = new RGBMLoader()
 					.setMaxRange( 16 )
-					.setPath( './https://Leexiaop.github.io/statics/threejs_offical_resource/textures/cube/pisaRGBM16/' )
+					.setPath( './https://Leexiaop.github.io/static/threejs_offical_resource/textures/cube/pisaRGBM16/' )
 					.loadCubemap( rgbmUrls );
 
 				cube1Texture.generateMipmaps = true;
@@ -80,7 +80,7 @@
 
 				const cube2Urls = [ 'posx.jpg', 'negx.jpg', 'posy.jpg', 'negy.jpg', 'posz.jpg', 'negz.jpg' ];
 				const cube2Texture = new THREE.CubeTextureLoader()
-					.setPath( './https://Leexiaop.github.io/statics/threejs_offical_resource/textures/cube/Park2/' )
+					.setPath( './https://Leexiaop.github.io/static/threejs_offical_resource/textures/cube/Park2/' )
 					.load( cube2Urls );
 
 				cube2Texture.generateMipmaps = true;
@@ -129,7 +129,7 @@
 
 				// scene objects
 
-				const loader = new GLTFLoader().setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/DamagedHelmet/glTF/' );
+				const loader = new GLTFLoader().setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/DamagedHelmet/glTF/' );
 				loader.load( 'DamagedHelmet.gltf', function ( gltf ) {
 
 					scene.add( gltf.scene );

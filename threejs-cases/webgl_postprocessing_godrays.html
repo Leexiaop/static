@@ -9,7 +9,7 @@
 
 	<body>
 		<div id="info">
-			<a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> - webgl god-rays example - tree by <a href="http://www.turbosquid.com/3d-https://Leexiaop.github.io/statics/threejs_offical_resource/models/free-tree-3d-model/592617" target="_blank" rel="noopener">stanloshka</a>
+			<a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> - webgl god-rays example - tree by <a href="http://www.turbosquid.com/3d-https://Leexiaop.github.io/static/threejs_offical_resource/models/free-tree-3d-model/592617" target="_blank" rel="noopener">stanloshka</a>
 		</div>
 
 		<!-- Import maps polyfill -->
@@ -19,8 +19,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -76,7 +76,7 @@
 				// tree
 
 				const loader = new OBJLoader();
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/obj/tree.obj', function ( object ) {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/obj/tree.obj', function ( object ) {
 
 					object.position.set( 0, - 150, - 150 );
 					object.scale.multiplyScalar( 400 );

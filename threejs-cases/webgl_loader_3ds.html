@@ -19,8 +19,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -54,11 +54,11 @@
 				scene.add( directionalLight );
 
 				//3ds files dont store normal maps
-				const normal = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/3ds/portalgun/https://Leexiaop.github.io/statics/threejs_offical_resource/textures/normal.jpg' );
+				const normal = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/3ds/portalgun/https://Leexiaop.github.io/static/threejs_offical_resource/textures/normal.jpg' );
 
 				const loader = new TDSLoader( );
-				loader.setResourcePath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/3ds/portalgun/https://Leexiaop.github.io/statics/threejs_offical_resource/textures/' );
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/3ds/portalgun/portalgun.3ds', function ( object ) {
+				loader.setResourcePath( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/3ds/portalgun/https://Leexiaop.github.io/static/threejs_offical_resource/textures/' );
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/3ds/portalgun/portalgun.3ds', function ( object ) {
 
 					object.traverse( function ( child ) {
 

@@ -21,8 +21,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/",
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/",
 					"three/nodes": "./jsm/nodes/Nodes.js"
 				}
 			}
@@ -59,7 +59,7 @@
 				scene = new THREE.Scene();
 
 				new RGBELoader()
-					.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/equirectangular/' )
+					.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/equirectangular/' )
 					.load( 'royal_esplanade_1k.hdr', function ( envMap ) {
 
 						envMap.mapping = THREE.EquirectangularReflectionMapping;
@@ -70,8 +70,8 @@
 						// model
 
 						new GLTFLoader()
-							.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/' )
-							.setDRACOLoader( new DRACOLoader().setDecoderPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/libs/draco/gltf/' ) )
+							.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/' )
+							.setDRACOLoader( new DRACOLoader().setDecoderPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/jsm/libs/draco/gltf/' ) )
 							.load( 'IridescentDishWithOlives.glb', function ( gltf ) {
 
 								// nodes

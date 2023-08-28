@@ -31,8 +31,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -60,11 +60,11 @@
 				//
 
 				const dracoLoader = new DRACOLoader();
-				dracoLoader.setDecoderPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/libs/draco/gltf/' );
+				dracoLoader.setDecoderPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/jsm/libs/draco/gltf/' );
 
 				const loader = new GLTFLoader();
 				loader.setDRACOLoader( dracoLoader );
-				loader.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/AVIFTest/' );
+				loader.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/AVIFTest/' );
 				loader.load( 'forest_house.glb', function ( gltf ) {
 
 					scene.add( gltf.scene );

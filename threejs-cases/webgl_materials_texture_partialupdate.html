@@ -20,8 +20,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -48,7 +48,7 @@
 				clock = new THREE.Clock();
 
 				const loader = new THREE.TextureLoader();
-				diffuseMap = loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/floors/FloorsCheckerboard_S_Diffuse.jpg', animate );
+				diffuseMap = loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/floors/FloorsCheckerboard_S_Diffuse.jpg', animate );
 				diffuseMap.colorSpace = THREE.SRGBColorSpace;
 				diffuseMap.minFilter = THREE.LinearFilter;
 				diffuseMap.generateMipmaps = false;

@@ -20,8 +20,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -60,7 +60,7 @@
 				scene.add( ground );
 
 				const textureLoader = new THREE.TextureLoader();
-				textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/floors/FloorsCheckerboard_S_Diffuse.jpg', function ( map ) {
+				textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/floors/FloorsCheckerboard_S_Diffuse.jpg', function ( map ) {
 
 					map.wrapS = THREE.RepeatWrapping;
 					map.wrapT = THREE.RepeatWrapping;
@@ -75,7 +75,7 @@
 				// water
 
 				const waterGeometry = new THREE.PlaneGeometry( 20, 20 );
-				const flowMap = textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/water/Water_1_M_Flow.jpg' );
+				const flowMap = textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/water/Water_1_M_Flow.jpg' );
 
 				water = new Water( waterGeometry, {
 					scale: 2,

@@ -18,8 +18,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/",
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/",
 					"three/nodes": "./jsm/nodes/Nodes.js"
 				}
 			}
@@ -37,7 +37,7 @@
 			import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 			import { HDRCubeTextureLoader } from 'three/addons/loaders/HDRCubeTextureLoader.js';
 
-			import { FlakesTexture } from 'three/addons/https://Leexiaop.github.io/statics/threejs_offical_resource/textures/FlakesTexture.js';
+			import { FlakesTexture } from 'three/addons/https://Leexiaop.github.io/static/threejs_offical_resource/textures/FlakesTexture.js';
 
 			let container, stats;
 
@@ -63,7 +63,7 @@
 				scene.add( group );
 
 				new HDRCubeTextureLoader()
-					.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/cube/pisaHDR/' )
+					.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/cube/pisaHDR/' )
 					.load( [ 'px.hdr', 'nx.hdr', 'py.hdr', 'ny.hdr', 'pz.hdr', 'nz.hdr' ],
 						  function ( hdrTexture ) {
 
@@ -71,25 +71,25 @@
 
 							const textureLoader = new THREE.TextureLoader();
 
-							const diffuse = textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/carbon/Carbon.png' );
+							const diffuse = textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/carbon/Carbon.png' );
 							diffuse.colorSpace = THREE.SRGBColorSpace;
 							diffuse.wrapS = THREE.RepeatWrapping;
 							diffuse.wrapT = THREE.RepeatWrapping;
 
-							const normalMap1 = textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/carbon/Carbon_Normal.png' );
+							const normalMap1 = textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/carbon/Carbon_Normal.png' );
 							normalMap1.wrapS = THREE.RepeatWrapping;
 							normalMap1.wrapT = THREE.RepeatWrapping;
 
-							const normalMap2 = textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/water/Water_1_M_Normal.jpg' );
+							const normalMap2 = textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/water/Water_1_M_Normal.jpg' );
 
 							const normalMap3 = new THREE.CanvasTexture( new FlakesTexture() );
 							normalMap3.wrapS = THREE.RepeatWrapping;
 							normalMap3.wrapT = THREE.RepeatWrapping;
 							normalMap3.anisotropy = 16;
 
-							const normalMap4 = textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/golfball.jpg' );
+							const normalMap4 = textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/golfball.jpg' );
 
-							const clearcoatNormalMap = textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/pbr/Scratched_gold/Scratched_gold_01_1K_Normal.png' );
+							const clearcoatNormalMap = textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/pbr/Scratched_gold/Scratched_gold_01_1K_Normal.png' );
 
 							// car paint
 

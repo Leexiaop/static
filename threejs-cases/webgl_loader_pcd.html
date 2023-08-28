@@ -19,8 +19,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -59,7 +59,7 @@
 				//scene.add( new THREE.AxesHelper( 1 ) );
 
 				const loader = new PCDLoader();
-				loader.load( './https://Leexiaop.github.io/statics/threejs_offical_resource/models/pcd/binary/Zaghetto.pcd', function ( points ) {
+				loader.load( './https://Leexiaop.github.io/static/threejs_offical_resource/models/pcd/binary/Zaghetto.pcd', function ( points ) {
 
 					points.geometry.center();
 					points.geometry.rotateX( Math.PI );

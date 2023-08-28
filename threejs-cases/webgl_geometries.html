@@ -17,8 +17,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -50,7 +50,7 @@
 				camera.add( pointLight );
 				scene.add( camera );
 
-				const map = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/uv_grid_opengl.jpg' );
+				const map = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/uv_grid_opengl.jpg' );
 				map.wrapS = map.wrapT = THREE.RepeatWrapping;
 				map.anisotropy = 16;
 				map.colorSpace = THREE.SRGBColorSpace;

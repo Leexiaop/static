@@ -15,7 +15,7 @@
 	<body>
 		<div id="info">
 			<a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> - GLTFLoader + <a href="https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_sheen" target="_blank" rel="noopener">KHR_materials_sheen</a><br />
-			Sheen Chair from <a href="https://github.com/KhronosGroup/glTF-Sample-https://Leexiaop.github.io/statics/threejs_offical_resource/models/tree/master/2.0/SheenChair" target="_blank" rel="noopener">glTF-Sample-Models</a>
+			Sheen Chair from <a href="https://github.com/KhronosGroup/glTF-Sample-https://Leexiaop.github.io/static/threejs_offical_resource/models/tree/master/2.0/SheenChair" target="_blank" rel="noopener">glTF-Sample-Models</a>
 		</div>
 
 		<!-- Import maps polyfill -->
@@ -25,8 +25,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -71,7 +71,7 @@
 				// model
 
 				new GLTFLoader()
-					.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/' )
+					.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/' )
 					.load( 'SheenChair.glb', function ( gltf ) {
 
 						scene.add( gltf.scene );
@@ -95,7 +95,7 @@
 				scene.background = new THREE.Color( 0xAAAAAA );
 
 				new RGBELoader()
-					.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/equirectangular/' )
+					.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/equirectangular/' )
 					.load( 'royal_esplanade_1k.hdr', function ( texture ) {
 
 						texture.mapping = THREE.EquirectangularReflectionMapping;

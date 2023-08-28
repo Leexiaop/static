@@ -20,8 +20,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/",
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/",
 					"three/nodes": "./jsm/nodes/Nodes.js"
 				}
 			}
@@ -107,13 +107,13 @@
 				const material = new MeshCustomNodeMaterial();
 
 				new OBJLoader()
-					.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/obj/cerberus/' )
+					.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/obj/cerberus/' )
 					.load( 'Cerberus.obj', function ( group ) {
 
 						const loaderManager = new THREE.LoadingManager();
 
 						const loader = new THREE.TextureLoader( loaderManager )
-							.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/obj/cerberus/' );
+							.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/obj/cerberus/' );
 
 						const diffuseMap = loader.load( 'Cerberus_A.jpg' );
 						diffuseMap.wrapS = THREE.RepeatWrapping;
@@ -192,7 +192,7 @@
 
 					const filename = environments[ name ].filename;
 					new RGBELoader()
-						.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/equirectangular/' )
+						.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/equirectangular/' )
 						.load( filename, function ( hdrEquirect ) {
 
 							const hdrCubeRenderTarget = pmremGenerator.fromEquirectangular( hdrEquirect );

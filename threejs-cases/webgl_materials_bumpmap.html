@@ -20,8 +20,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -89,7 +89,7 @@
 
 				//
 
-				const mapHeight = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/LeePerrySmith/Infinite-Level_02_Disp_NoSmoothUV-4096.jpg' );
+				const mapHeight = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/LeePerrySmith/Infinite-Level_02_Disp_NoSmoothUV-4096.jpg' );
 
 				const material = new THREE.MeshPhongMaterial( {
 					color: 0x9c6e49,
@@ -100,7 +100,7 @@
 				} );
 
 				loader = new GLTFLoader();
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/LeePerrySmith/LeePerrySmith.glb', function ( gltf ) {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/LeePerrySmith/LeePerrySmith.glb', function ( gltf ) {
 
 					createScene( gltf.scene.children[ 0 ].geometry, 1, material );
 

@@ -18,8 +18,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -197,7 +197,7 @@
 				// Simple geometry with basic material
 				// ---------------------------------------------------------------------
 				// Icosahedron
-				const mapGrid = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/uv_grid_opengl.jpg' );
+				const mapGrid = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/uv_grid_opengl.jpg' );
 				mapGrid.wrapS = mapGrid.wrapT = THREE.RepeatWrapping;
 				mapGrid.colorSpace = THREE.SRGBColorSpace;
 				material = new THREE.MeshBasicMaterial( {
@@ -272,7 +272,7 @@
 				// ---------------------------------------------------------------------
 				// Hierarchy
 				// ---------------------------------------------------------------------
-				const mapWood = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/hardwood2_diffuse.jpg' );
+				const mapWood = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/hardwood2_diffuse.jpg' );
 				material = new THREE.MeshStandardMaterial( { map: mapWood, side: THREE.DoubleSide } );
 
 				object = new THREE.Mesh( new THREE.BoxGeometry( 40, 100, 100 ), material );
@@ -422,7 +422,7 @@
 				// Model requiring KHR_mesh_quantization
 				// ---------------------------------------------------------------------
 				const loader = new GLTFLoader();
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/ShaderBall.glb', function ( gltf ) {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/ShaderBall.glb', function ( gltf ) {
 
 					model = gltf.scene;
 					model.scale.setScalar( 50 );
@@ -459,10 +459,10 @@
 				// Exporting compressed textures and meshes (KTX2 / Draco / Meshopt)
 				// ---------------------------------------------------------------------
 				const ktx2Loader = new KTX2Loader()
-					.setTranscoderPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/libs/basis/' )
+					.setTranscoderPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/jsm/libs/basis/' )
 					.detectSupport( renderer );
 
-				const gltfLoader = new GLTFLoader().setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/' );
+				const gltfLoader = new GLTFLoader().setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/' );
 				gltfLoader.setKTX2Loader( ktx2Loader );
 				gltfLoader.setMeshoptDecoder( MeshoptDecoder );
 				gltfLoader.load( 'coffeemat.glb', function ( gltf ) {

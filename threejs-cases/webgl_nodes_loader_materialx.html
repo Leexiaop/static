@@ -24,8 +24,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/",
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/",
 					"three/nodes": "./jsm/nodes/Nodes.js"
 				}
 			}
@@ -100,7 +100,7 @@
 				//
 
 				new RGBELoader()
-					.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/equirectangular/' )
+					.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/equirectangular/' )
 					.load( 'san_giuseppe_bridge_2k.hdr', async ( texture ) => {
 
 						texture.mapping = THREE.EquirectangularReflectionMapping;
@@ -108,7 +108,7 @@
 						scene.background = texture;
 						scene.environment = texture;
 
-						prefab = ( await new GLTFLoader().loadAsync( './https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/ShaderBall.glb' ) ).scene;
+						prefab = ( await new GLTFLoader().loadAsync( './https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/ShaderBall.glb' ) ).scene;
 
 						for ( const sample of samples ) {
 

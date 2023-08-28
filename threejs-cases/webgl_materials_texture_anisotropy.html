@@ -60,8 +60,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -125,7 +125,7 @@
 
 				const maxAnisotropy = renderer.capabilities.getMaxAnisotropy();
 
-				const texture1 = textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/crate.gif' );
+				const texture1 = textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/crate.gif' );
 				const material1 = new THREE.MeshPhongMaterial( { color: 0xffffff, map: texture1 } );
 
 				texture1.colorSpace = THREE.SRGBColorSpace;
@@ -133,7 +133,7 @@
 				texture1.wrapS = texture1.wrapT = THREE.RepeatWrapping;
 				texture1.repeat.set( 512, 512 );
 
-				const texture2 = textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/crate.gif' );
+				const texture2 = textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/crate.gif' );
 				const material2 = new THREE.MeshPhongMaterial( { color: 0xffffff, map: texture2 } );
 
 				texture2.colorSpace = THREE.SRGBColorSpace;

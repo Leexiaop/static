@@ -20,8 +20,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -48,7 +48,7 @@
 				scene = new THREE.Scene();
 
 				const loader = new GLTFLoader();
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/LeePerrySmith/LeePerrySmith.glb', function ( gltf ) {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/LeePerrySmith/LeePerrySmith.glb', function ( gltf ) {
 
 					const geometry = gltf.scene.children[ 0 ].geometry;
 

@@ -23,8 +23,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -72,7 +72,7 @@
 				scene.add( group );
 
 				const loader = new THREE.TextureLoader();
-				const texture = loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/uv_grid_opengl.jpg' );
+				const texture = loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/uv_grid_opengl.jpg' );
 				texture.colorSpace = THREE.SRGBColorSpace;
 
 				// it's necessary to apply these settings in order to correctly display the texture on a shape geometry

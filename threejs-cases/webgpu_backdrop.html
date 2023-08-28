@@ -17,8 +17,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/",
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/",
 					"three/nodes": "./jsm/nodes/Nodes.js"
 				}
 			}
@@ -69,7 +69,7 @@
 				scene.add( camera );
 
 				const loader = new GLTFLoader();
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/Michelle.glb', function ( gltf ) {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/Michelle.glb', function ( gltf ) {
 
 					const object = gltf.scene;
 					mixer = new THREE.AnimationMixer( object );

@@ -15,7 +15,7 @@
 	<div id="info">Physics threejs demo with convex objects breaking in real time<br />Press mouse to throw balls and move the camera.</div>
 	<div id="container"></div>
 
-	<script src="https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/libs/ammo.wasm.js"></script>
+	<script src="https://Leexiaop.github.io/static/threejs_offical_resource/jsm/libs/ammo.wasm.js"></script>
 
 	<!-- Import maps polyfill -->
 	<!-- Remove this when import maps will be widely supported -->
@@ -24,8 +24,8 @@
 	<script type="importmap">
 		{
 			"imports": {
-				"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-				"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+				"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+				"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 			}
 		}
 	</script>
@@ -196,7 +196,7 @@
 			quat.set( 0, 0, 0, 1 );
 			const ground = createParalellepipedWithPhysics( 40, 1, 40, 0, pos, quat, new THREE.MeshPhongMaterial( { color: 0xFFFFFF } ) );
 			ground.receiveShadow = true;
-			textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/grid.png', function ( texture ) {
+			textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/grid.png', function ( texture ) {
 
 				texture.wrapS = THREE.RepeatWrapping;
 				texture.wrapT = THREE.RepeatWrapping;

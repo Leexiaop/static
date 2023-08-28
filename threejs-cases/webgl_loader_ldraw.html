@@ -27,8 +27,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -51,25 +51,25 @@
 
 			let model;
 
-			const ldrawPath = 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/ldraw/officialLibrary/';
+			const ldrawPath = 'https://Leexiaop.github.io/static/threejs_offical_resource/models/ldraw/officialLibrary/';
 
 			const modelFileList = {
-				'Car': 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/car.ldr_Packed.mpd',
-				'Lunar Vehicle': 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/1621-1-LunarMPVVehicle.mpd_Packed.mpd',
-				'Radar Truck': 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/889-1-RadarTruck.mpd_Packed.mpd',
-				'Trailer': 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/4838-1-MiniVehicles.mpd_Packed.mpd',
-				'Bulldozer': 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/4915-1-MiniConstruction.mpd_Packed.mpd',
-				'Helicopter': 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/4918-1-MiniFlyers.mpd_Packed.mpd',
-				'Plane': 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/5935-1-IslandHopper.mpd_Packed.mpd',
-				'Lighthouse': 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/30023-1-Lighthouse.ldr_Packed.mpd',
-				'X-Wing mini': 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/30051-1-X-wingFighter-Mini.mpd_Packed.mpd',
-				'AT-ST mini': 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/30054-1-AT-ST-Mini.mpd_Packed.mpd',
-				'AT-AT mini': 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/4489-1-AT-AT-Mini.mpd_Packed.mpd',
-				'Shuttle': 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/4494-1-Imperial Shuttle-Mini.mpd_Packed.mpd',
-				'TIE Interceptor': 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/6965-1-TIEIntercep_4h4MXk5.mpd_Packed.mpd',
-				'Star fighter': 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/6966-1-JediStarfighter-Mini.mpd_Packed.mpd',
-				'X-Wing': 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/7140-1-X-wingFighter.mpd_Packed.mpd',
-				'AT-ST': 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/10174-1-ImperialAT-ST-UCS.mpd_Packed.mpd'
+				'Car': 'https://Leexiaop.github.io/static/threejs_offical_resource/models/car.ldr_Packed.mpd',
+				'Lunar Vehicle': 'https://Leexiaop.github.io/static/threejs_offical_resource/models/1621-1-LunarMPVVehicle.mpd_Packed.mpd',
+				'Radar Truck': 'https://Leexiaop.github.io/static/threejs_offical_resource/models/889-1-RadarTruck.mpd_Packed.mpd',
+				'Trailer': 'https://Leexiaop.github.io/static/threejs_offical_resource/models/4838-1-MiniVehicles.mpd_Packed.mpd',
+				'Bulldozer': 'https://Leexiaop.github.io/static/threejs_offical_resource/models/4915-1-MiniConstruction.mpd_Packed.mpd',
+				'Helicopter': 'https://Leexiaop.github.io/static/threejs_offical_resource/models/4918-1-MiniFlyers.mpd_Packed.mpd',
+				'Plane': 'https://Leexiaop.github.io/static/threejs_offical_resource/models/5935-1-IslandHopper.mpd_Packed.mpd',
+				'Lighthouse': 'https://Leexiaop.github.io/static/threejs_offical_resource/models/30023-1-Lighthouse.ldr_Packed.mpd',
+				'X-Wing mini': 'https://Leexiaop.github.io/static/threejs_offical_resource/models/30051-1-X-wingFighter-Mini.mpd_Packed.mpd',
+				'AT-ST mini': 'https://Leexiaop.github.io/static/threejs_offical_resource/models/30054-1-AT-ST-Mini.mpd_Packed.mpd',
+				'AT-AT mini': 'https://Leexiaop.github.io/static/threejs_offical_resource/models/4489-1-AT-AT-Mini.mpd_Packed.mpd',
+				'Shuttle': 'https://Leexiaop.github.io/static/threejs_offical_resource/models/4494-1-Imperial Shuttle-Mini.mpd_Packed.mpd',
+				'TIE Interceptor': 'https://Leexiaop.github.io/static/threejs_offical_resource/models/6965-1-TIEIntercep_4h4MXk5.mpd_Packed.mpd',
+				'Star fighter': 'https://Leexiaop.github.io/static/threejs_offical_resource/models/6966-1-JediStarfighter-Mini.mpd_Packed.mpd',
+				'X-Wing': 'https://Leexiaop.github.io/static/threejs_offical_resource/models/7140-1-X-wingFighter.mpd_Packed.mpd',
+				'AT-ST': 'https://Leexiaop.github.io/static/threejs_offical_resource/models/10174-1-ImperialAT-ST-UCS.mpd_Packed.mpd'
 			};
 
 			init();
@@ -381,7 +381,7 @@
 		<!-- LDraw.org CC BY 2.0 Parts Library attribution -->
 		<div style="display: block; position: absolute; bottom: 8px; left: 8px; width: 160px; padding: 10px; background-color: #F3F7F8;">
 			<center>
-				<a href="http://www.ldraw.org"><img style="width: 145px" src="https://Leexiaop.github.io/statics/threejs_offical_resource/models/ldraw/ldraw_org_logo/Stamp145.png"></a>
+				<a href="http://www.ldraw.org"><img style="width: 145px" src="https://Leexiaop.github.io/static/threejs_offical_resource/models/ldraw/ldraw_org_logo/Stamp145.png"></a>
 				<br />
 				<a href="http://www.ldraw.org/">This software uses the LDraw Parts Library</a>
 			</center>

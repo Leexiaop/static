@@ -42,8 +42,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -80,7 +80,7 @@
 				scene.background = new THREE.Color( 0xf0f0f0 );
 				scene.environment = pmremGenerator.fromScene( new RoomEnvironment( renderer ), 0.04 ).texture;
 
-				const loader = new GLTFLoader().setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/DamagedHelmet/glTF/' );
+				const loader = new GLTFLoader().setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/DamagedHelmet/glTF/' );
 				loader.load( 'DamagedHelmet.gltf', async function ( gltf ) {
 
 					scene.add( gltf.scene );

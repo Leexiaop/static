@@ -15,8 +15,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -47,7 +47,7 @@
 				scene = new THREE.Scene();
 
 				const loader = new THREE.BufferGeometryLoader();
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/json/suzanne_buffergeometry.json', function ( geometry ) {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/json/suzanne_buffergeometry.json', function ( geometry ) {
 
 					geometry.computeVertexNormals();
 					geometry.scale( 0.5, 0.5, 0.5 );

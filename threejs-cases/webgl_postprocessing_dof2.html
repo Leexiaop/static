@@ -19,8 +19,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -91,7 +91,7 @@
 
 				// skybox
 
-				const r = 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/cube/Bridge2/';
+				const r = 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/cube/Bridge2/';
 				const urls = [ r + 'posx.jpg', r + 'negx.jpg',
 							 r + 'posy.jpg', r + 'negy.jpg',
 							 r + 'posz.jpg', r + 'negz.jpg' ];
@@ -134,7 +134,7 @@
 				// adding Monkeys
 
 				const loader2 = new THREE.BufferGeometryLoader();
-				loader2.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/json/suzanne_buffergeometry.json', function ( geometry ) {
+				loader2.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/json/suzanne_buffergeometry.json', function ( geometry ) {
 
 					geometry.computeVertexNormals();
 

@@ -19,8 +19,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -107,7 +107,7 @@
 
 				//  GROUND
 
-				const gt = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/terrain/grasslight-big.jpg' );
+				const gt = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/terrain/grasslight-big.jpg' );
 				const gg = new THREE.PlaneGeometry( 20, 20 );
 				const gm = new THREE.MeshPhongMaterial( { color: 0xffffff, map: gt } );
 
@@ -166,7 +166,7 @@
 
 				const config = {
 
-					baseUrl: 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/md2/ratamahatta/',
+					baseUrl: 'https://Leexiaop.github.io/static/threejs_offical_resource/models/md2/ratamahatta/',
 
 					body: 'ratamahatta.md2',
 					skins: [ 'ratamahatta.png', 'ctf_b.png', 'ctf_r.png', 'dead.png', 'gearwhore.png' ],

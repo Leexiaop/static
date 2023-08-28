@@ -20,8 +20,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -75,15 +75,15 @@
 
 				// matcap
 				const loaderEXR = new EXRLoader( manager );
-				const matcap = loaderEXR.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/matcaps/040full.exr' );
+				const matcap = loaderEXR.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/matcaps/040full.exr' );
 
 				// normalmap
 				const loader = new THREE.TextureLoader( manager );
 
-				const normalmap = loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/LeePerrySmith/Infinite-Level_02_Tangent_SmoothUV.jpg' );
+				const normalmap = loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/LeePerrySmith/Infinite-Level_02_Tangent_SmoothUV.jpg' );
 
 				// model
-				new GLTFLoader( manager ).load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/LeePerrySmith/LeePerrySmith.glb', function ( gltf ) {
+				new GLTFLoader( manager ).load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/LeePerrySmith/LeePerrySmith.glb', function ( gltf ) {
 
 					mesh = gltf.scene.children[ 0 ];
 					mesh.position.y = - 0.25;

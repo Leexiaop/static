@@ -22,9 +22,9 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
 					"three/nodes": "./jsm/nodes/Nodes.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -79,12 +79,12 @@
 
 				scene = new THREE.Scene();
 
-				const uvTexture = new THREE.TextureLoader().load( './https://Leexiaop.github.io/statics/threejs_offical_resource/textures/uv_grid_opengl.jpg' );
+				const uvTexture = new THREE.TextureLoader().load( './https://Leexiaop.github.io/static/threejs_offical_resource/textures/uv_grid_opengl.jpg' );
 
 				const rgbmUrls = [ 'px.png', 'nx.png', 'py.png', 'ny.png', 'pz.png', 'nz.png' ];
 				const texture = new RGBMLoader()
 					.setMaxRange( 16 )
-					.setPath( './https://Leexiaop.github.io/statics/threejs_offical_resource/textures/cube/pisaRGBM16/' )
+					.setPath( './https://Leexiaop.github.io/static/threejs_offical_resource/textures/cube/pisaRGBM16/' )
 					.loadCubemap( rgbmUrls );
 
 				texture.name = 'pisaRGBM16';

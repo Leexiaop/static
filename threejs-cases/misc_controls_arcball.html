@@ -21,8 +21,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -116,10 +116,10 @@
 				const material = new THREE.MeshStandardMaterial();
 
 				new OBJLoader()
-					.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/obj/cerberus/' )
+					.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/obj/cerberus/' )
 					.load( 'Cerberus.obj', function ( group ) {
 
-						const textureLoader = new THREE.TextureLoader().setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/obj/cerberus/' );
+						const textureLoader = new THREE.TextureLoader().setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/obj/cerberus/' );
 
 						material.roughness = 1;
 						material.metalness = 1;
@@ -153,7 +153,7 @@
 						render();
 
 						new RGBELoader()
-							.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/equirectangular/' )
+							.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/equirectangular/' )
 							.load( 'venice_sunset_1k.hdr', function ( hdrEquirect ) {
 
 								hdrEquirect.mapping = THREE.EquirectangularReflectionMapping;

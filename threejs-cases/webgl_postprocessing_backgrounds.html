@@ -21,8 +21,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -165,7 +165,7 @@
 				composer.addPass( texturePass );
 
 				const textureLoader = new THREE.TextureLoader();
-				textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/hardwood2_diffuse.jpg', function ( map ) {
+				textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/hardwood2_diffuse.jpg', function ( map ) {
 
 					map.colorSpace = THREE.SRGBColorSpace;
 					texturePass.map = map;
@@ -174,7 +174,7 @@
 
 				cubeTexturePassP = null;
 
-				const ldrUrls = genCubeUrls( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/cube/pisa/', '.png' );
+				const ldrUrls = genCubeUrls( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/cube/pisa/', '.png' );
 				new THREE.CubeTextureLoader().load( ldrUrls, function ( ldrCubeMap ) {
 
 					cubeTexturePassP = new CubeTexturePass( cameraP, ldrCubeMap );

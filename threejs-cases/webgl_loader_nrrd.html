@@ -21,8 +21,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -66,7 +66,7 @@
 				scene.add( dirLight );
 
 				const loader = new NRRDLoader();
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/nrrd/I.nrrd', function ( volume ) {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/nrrd/I.nrrd', function ( volume ) {
 
 					//box helper to see the extend of the volume
 					const geometry = new THREE.BoxGeometry( volume.xLength, volume.yLength, volume.zLength );
@@ -132,7 +132,7 @@
 				const vtkmaterial = new THREE.MeshLambertMaterial( { wireframe: false, side: THREE.DoubleSide, color: 0xff0000 } );
 
 				const vtkloader = new VTKLoader();
-				vtkloader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/vtk/liver.vtk', function ( geometry ) {
+				vtkloader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/vtk/liver.vtk', function ( geometry ) {
 
 					geometry.computeVertexNormals();
 

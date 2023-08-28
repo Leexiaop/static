@@ -28,8 +28,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -50,7 +50,7 @@
 			animate();
 
 			const loader = new BVHLoader();
-			loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/bvh/pirouette.bvh', function ( result ) {
+			loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/bvh/pirouette.bvh', function ( result ) {
 
 				const skeletonHelper = new THREE.SkeletonHelper( result.skeleton.bones[ 0 ] );
 

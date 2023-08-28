@@ -27,8 +27,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -148,7 +148,7 @@
 				line.renderOrder = 1;
 
 				const controllerModelFactory = new XRControllerModelFactory();
-				const handModelFactory = new XRHandModelFactory().setPath( './https://Leexiaop.github.io/statics/threejs_offical_resource/models/fbx/' );
+				const handModelFactory = new XRHandModelFactory().setPath( './https://Leexiaop.github.io/static/threejs_offical_resource/models/fbx/' );
 
 				//
 
@@ -177,7 +177,7 @@
 				eyeCharts.position.z = snellenConfig.z;
 				scene.add( eyeCharts );
 
-				snellenTexture = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/snellen.png' );
+				snellenTexture = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/snellen.png' );
 				snellenTexture.repeat.x = snellenConfig.cropX;
 				snellenTexture.repeat.y = snellenConfig.cropY;
 				snellenTexture.generateMipmaps = false;
@@ -189,7 +189,7 @@
 				snellenMeshPlain.position.y = snellenConfig.y - snellenConfig.heightMeters;
 				eyeCharts.add( snellenMeshPlain );
 
-				snellenTexture = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/snellen.png' );
+				snellenTexture = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/snellen.png' );
 				snellenTexture.repeat.x = snellenConfig.cropX;
 				snellenTexture.repeat.y = snellenConfig.cropY;
 				const snellenMeshMipMap = new THREE.Mesh(
@@ -286,7 +286,7 @@
 
 				video = document.createElement( 'video' );
 				video.loop = true;
-				video.src = 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/MaryOculus.webm';
+				video.src = 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/MaryOculus.webm';
 
 			}
 

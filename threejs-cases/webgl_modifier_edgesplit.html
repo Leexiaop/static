@@ -15,8 +15,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -76,7 +76,7 @@
 				scene.add( new THREE.HemisphereLight( 0xffffff, 0x444444, 3 ) );
 
 				new OBJLoader().load(
-					'./https://Leexiaop.github.io/statics/threejs_offical_resource/models/obj/cerberus/Cerberus.obj',
+					'./https://Leexiaop.github.io/static/threejs_offical_resource/models/obj/cerberus/Cerberus.obj',
 					function ( group ) {
 
 						const cerberus = group.children[ 0 ];
@@ -106,7 +106,7 @@
 
 				window.addEventListener( 'resize', onWindowResize );
 
-				new THREE.TextureLoader().load( './https://Leexiaop.github.io/statics/threejs_offical_resource/models/obj/cerberus/Cerberus_A.jpg', function ( texture ) {
+				new THREE.TextureLoader().load( './https://Leexiaop.github.io/static/threejs_offical_resource/models/obj/cerberus/Cerberus_A.jpg', function ( texture ) {
 
 					map = texture;
 					map.colorSpace = THREE.SRGBColorSpace;

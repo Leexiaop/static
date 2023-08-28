@@ -21,8 +21,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -100,7 +100,7 @@
 
 				const hdrUrls = [ 'px.hdr', 'nx.hdr', 'py.hdr', 'ny.hdr', 'pz.hdr', 'nz.hdr' ];
 				hdrCubeMap = new HDRCubeTextureLoader()
-					.setPath( './https://Leexiaop.github.io/statics/threejs_offical_resource/textures/cube/pisaHDR/' )
+					.setPath( './https://Leexiaop.github.io/static/threejs_offical_resource/textures/cube/pisaHDR/' )
 					.load( hdrUrls, function () {
 
 						hdrCubeRenderTarget = pmremGenerator.fromCubemap( hdrCubeMap );
@@ -112,7 +112,7 @@
 
 				const ldrUrls = [ 'px.png', 'nx.png', 'py.png', 'ny.png', 'pz.png', 'nz.png' ];
 				ldrCubeMap = new THREE.CubeTextureLoader()
-					.setPath( './https://Leexiaop.github.io/statics/threejs_offical_resource/textures/cube/pisa/' )
+					.setPath( './https://Leexiaop.github.io/static/threejs_offical_resource/textures/cube/pisa/' )
 					.load( ldrUrls, function () {
 
 						ldrCubeRenderTarget = pmremGenerator.fromCubemap( ldrCubeMap );
@@ -122,7 +122,7 @@
 
 				const rgbmUrls = [ 'px.png', 'nx.png', 'py.png', 'ny.png', 'pz.png', 'nz.png' ];
 				rgbmCubeMap = new RGBMLoader().setMaxRange( 16 )
-					.setPath( './https://Leexiaop.github.io/statics/threejs_offical_resource/textures/cube/pisaRGBM16/' )
+					.setPath( './https://Leexiaop.github.io/static/threejs_offical_resource/textures/cube/pisaRGBM16/' )
 					.loadCubemap( rgbmUrls, function () {
 
 						rgbmCubeRenderTarget = pmremGenerator.fromCubemap( rgbmCubeMap );

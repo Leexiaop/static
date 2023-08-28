@@ -9,8 +9,8 @@
 <body>
 
 	<audio loop id="music" preload="auto" style="display: none">
-		<source src="https://Leexiaop.github.io/statics/threejs_offical_resource/sounds/376737_Skullbeatz___Bad_Cat_Maste.ogg" type="audio/ogg">
-		<source src="https://Leexiaop.github.io/statics/threejs_offical_resource/sounds/376737_Skullbeatz___Bad_Cat_Maste.mp3" type="audio/mpeg">
+		<source src="https://Leexiaop.github.io/static/threejs_offical_resource/sounds/376737_Skullbeatz___Bad_Cat_Maste.ogg" type="audio/ogg">
+		<source src="https://Leexiaop.github.io/static/threejs_offical_resource/sounds/376737_Skullbeatz___Bad_Cat_Maste.mp3" type="audio/mpeg">
 	</audio>
 
 	<div id="overlay">
@@ -29,8 +29,8 @@
 	<script type="importmap">
 		{
 			"imports": {
-				"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-				"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+				"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+				"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 			}
 		}
 	</script>
@@ -60,7 +60,7 @@
 			camera.position.set( 3, 2, 3 );
 
 			const reflectionCube = new THREE.CubeTextureLoader()
-				.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/cube/SwedishRoyalCastle/' )
+				.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/cube/SwedishRoyalCastle/' )
 				.load( [ 'px.jpg', 'nx.jpg', 'py.jpg', 'ny.jpg', 'pz.jpg', 'nz.jpg' ] );
 
 			scene = new THREE.Scene();
@@ -115,7 +115,7 @@
 			//
 
 			const gltfLoader = new GLTFLoader();
-			gltfLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/BoomBox.glb', function ( gltf ) {
+			gltfLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/BoomBox.glb', function ( gltf ) {
 
 				const boomBox = gltf.scene;
 				boomBox.position.set( 0, 0.2, 0 );

@@ -21,8 +21,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -54,7 +54,7 @@
 				camera.position.z = 13;
 
 				//cubemap
-				const path = 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/cube/SwedishRoyalCastle/';
+				const path = 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/cube/SwedishRoyalCastle/';
 				const format = '.jpg';
 				const urls = [
 					path + 'px' + format, path + 'nx' + format,
@@ -84,7 +84,7 @@
 				//models
 				const objLoader = new OBJLoader();
 
-				objLoader.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/obj/walt/' );
+				objLoader.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/obj/walt/' );
 				objLoader.load( 'WaltHead.obj', function ( object ) {
 
 					const head = object.children[ 0 ];

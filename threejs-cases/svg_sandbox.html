@@ -20,8 +20,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -54,7 +54,7 @@
 				// QRCODE
 
 				const loader = new THREE.BufferGeometryLoader();
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/json/QRCode_buffergeometry.json', function ( geometry ) {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/json/QRCode_buffergeometry.json', function ( geometry ) {
 
 					mesh = new THREE.Mesh( geometry, new THREE.MeshLambertMaterial( { vertexColors: true } ) );
 					mesh.scale.x = mesh.scale.y = mesh.scale.z = 2;
@@ -195,7 +195,7 @@
 				// CUSTOM FROM FILE
 
 				const fileLoader = new THREE.FileLoader();
-				fileLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/svg/hexagon.svg', function ( svg ) {
+				fileLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/svg/hexagon.svg', function ( svg ) {
 
 					const node = document.createElementNS( 'http://www.w3.org/2000/svg', 'g' );
 					const parser = new DOMParser();

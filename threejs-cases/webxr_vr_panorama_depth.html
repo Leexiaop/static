@@ -21,8 +21,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -68,7 +68,7 @@
 				const manager = new THREE.LoadingManager();
 				const loader = new THREE.TextureLoader( manager );
 
-				loader.load( './https://Leexiaop.github.io/statics/threejs_offical_resource/textures/kandao3.jpg', function ( texture ) {
+				loader.load( './https://Leexiaop.github.io/static/threejs_offical_resource/textures/kandao3.jpg', function ( texture ) {
 
 					texture.colorSpace = THREE.SRGBColorSpace;
 					texture.minFilter = THREE.NearestFilter;
@@ -77,7 +77,7 @@
 
 				} );
 
-				loader.load( './https://Leexiaop.github.io/statics/threejs_offical_resource/textures/kandao3_depthmap.jpg', function ( depth ) {
+				loader.load( './https://Leexiaop.github.io/static/threejs_offical_resource/textures/kandao3_depthmap.jpg', function ( depth ) {
 
 					depth.minFilter = THREE.NearestFilter;
 					depth.generateMipmaps = false;

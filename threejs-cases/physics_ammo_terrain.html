@@ -15,7 +15,7 @@
 		<div id="container"></div>
 		<div id="info">Ammo.js physics terrain heightfield demo</div>
 
-		<script src="https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/libs/ammo.wasm.js"></script>
+		<script src="https://Leexiaop.github.io/static/threejs_offical_resource/jsm/libs/ammo.wasm.js"></script>
 
 		<!-- Import maps polyfill -->
 		<!-- Remove this when import maps will be widely supported -->
@@ -24,8 +24,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -140,7 +140,7 @@
 				scene.add( terrainMesh );
 
 				const textureLoader = new THREE.TextureLoader();
-				textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/grid.png', function ( texture ) {
+				textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/grid.png', function ( texture ) {
 
 					texture.wrapS = THREE.RepeatWrapping;
 					texture.wrapT = THREE.RepeatWrapping;

@@ -19,8 +19,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -45,7 +45,7 @@
 				scene = new THREE.Scene();
 
 				const loader = new GCodeLoader();
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gcode/benchy.gcode', function ( object ) {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gcode/benchy.gcode', function ( object ) {
 
 					object.position.set( - 100, - 20, 100 );
 					scene.add( object );

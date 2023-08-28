@@ -19,8 +19,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -58,7 +58,7 @@
 
 				camera = new THREE.OrthographicCamera( - aspect, aspect, 1, - 1, 0, 1 );
 
-				new LogLuvLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/memorial.tif', function ( texture ) {
+				new LogLuvLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/memorial.tif', function ( texture ) {
 
 					const material = new THREE.MeshBasicMaterial( { map: texture } );
 

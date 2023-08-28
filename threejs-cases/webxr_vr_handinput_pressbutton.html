@@ -22,8 +22,8 @@
 	<script type="importmap">
 		{
 			"imports": {
-				"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-				"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+				"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+				"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 			}
 		}
 	</script>
@@ -84,12 +84,12 @@
 
 					// load a sound and set it as the Audio object's buffer
 					const audioLoader = new THREE.AudioLoader();
-					audioLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/sounds/button-press.ogg', function ( buffer ) {
+					audioLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/sounds/button-press.ogg', function ( buffer ) {
 
 						buttonPressSound.setBuffer( buffer );
 
 					} );
-					audioLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/sounds/button-release.ogg', function ( buffer ) {
+					audioLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/sounds/button-release.ogg', function ( buffer ) {
 
 						buttonReleaseSound.setBuffer( buffer );
 

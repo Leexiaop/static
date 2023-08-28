@@ -22,8 +22,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -96,7 +96,7 @@
 				sceneModel.add( directionalLight );
 
 				const loader = new GLTFLoader();
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/LeePerrySmith/LeePerrySmith.glb', function ( gltf ) {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/LeePerrySmith/LeePerrySmith.glb', function ( gltf ) {
 
 					createMesh( gltf.scene.children[ 0 ].geometry, sceneModel, 100 );
 
@@ -104,7 +104,7 @@
 
 				//
 
-				const diffuseMap = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/cube/SwedishRoyalCastle/pz.jpg' );
+				const diffuseMap = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/cube/SwedishRoyalCastle/pz.jpg' );
 				diffuseMap.colorSpace = THREE.SRGBColorSpace;
 
 				const materialColor = new THREE.MeshBasicMaterial( {
@@ -294,7 +294,7 @@
 
 			function createMesh( geometry, scene, scale ) {
 
-				const diffuseMap = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/LeePerrySmith/Map-COL.jpg' );
+				const diffuseMap = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/LeePerrySmith/Map-COL.jpg' );
 				diffuseMap.colorSpace = THREE.SRGBColorSpace;
 
 				const mat2 = new THREE.MeshPhongMaterial( {
@@ -303,7 +303,7 @@
 					specular: 0x080808,
 					shininess: 20,
 					map: diffuseMap,
-					normalMap: new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/LeePerrySmith/Infinite-Level_02_Tangent_SmoothUV.jpg' ),
+					normalMap: new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/LeePerrySmith/Infinite-Level_02_Tangent_SmoothUV.jpg' ),
 					normalScale: new THREE.Vector2( 0.75, 0.75 )
 
 				} );

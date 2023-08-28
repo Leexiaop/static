@@ -20,8 +20,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -90,13 +90,13 @@
 
 				const textureLoader = new THREE.TextureLoader();
 
-				const diffuseMap = textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/LeePerrySmith/Map-COL.jpg' );
+				const diffuseMap = textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/LeePerrySmith/Map-COL.jpg' );
 				diffuseMap.colorSpace = THREE.SRGBColorSpace;
 
-				const specularMap = textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/LeePerrySmith/Map-SPEC.jpg' );
+				const specularMap = textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/LeePerrySmith/Map-SPEC.jpg' );
 				specularMap.colorSpace = THREE.SRGBColorSpace;
 
-				const normalMap = textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/LeePerrySmith/Infinite-Level_02_Tangent_SmoothUV.jpg' );
+				const normalMap = textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/LeePerrySmith/Infinite-Level_02_Tangent_SmoothUV.jpg' );
 
 				const material = new THREE.MeshPhongMaterial( {
 					color: 0xefefef,
@@ -109,7 +109,7 @@
 				} );
 
 				loader = new GLTFLoader();
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/LeePerrySmith/LeePerrySmith.glb', function ( gltf ) {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/LeePerrySmith/LeePerrySmith.glb', function ( gltf ) {
 
 					const geometry = gltf.scene.children[ 0 ].geometry;
 

@@ -20,8 +20,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -83,7 +83,7 @@
 				scene.add( ground );
 
 				const textureLoader = new THREE.TextureLoader();
-				textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/hardwood2_diffuse.jpg', function ( map ) {
+				textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/hardwood2_diffuse.jpg', function ( map ) {
 
 					map.wrapS = THREE.RepeatWrapping;
 					map.wrapT = THREE.RepeatWrapping;
@@ -114,7 +114,7 @@
 				// skybox
 
 				const cubeTextureLoader = new THREE.CubeTextureLoader();
-				cubeTextureLoader.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/cube/Park2/' );
+				cubeTextureLoader.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/cube/Park2/' );
 
 				const cubeTexture = cubeTextureLoader.load( [
 					'posx.jpg', 'negx.jpg',

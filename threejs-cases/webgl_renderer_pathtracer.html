@@ -45,8 +45,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/",
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/",
 					"three/examples/": "./",
 					"three-gpu-pathtracer": "https://unpkg.com/three-gpu-pathtracer@0.0.14/build/index.module.js",
 					"three-mesh-bvh": "https://unpkg.com/three-mesh-bvh@0.6.0/build/index.module.js"
@@ -172,8 +172,8 @@
 				// only smooth when not rendering with flat colors to improve processing time
 				const ldrawPromise =
 					new LDrawLoader()
-						.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/ldraw/officialLibrary/' )
-						.loadAsync( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/7140-1-X-wingFighter.mpd_Packed.mpd', onProgress )
+						.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/ldraw/officialLibrary/' )
+						.loadAsync( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/7140-1-X-wingFighter.mpd_Packed.mpd', onProgress )
 						.then( function ( legoGroup ) {
 
 							legoGroup = LDrawUtils.mergeObject( legoGroup );
@@ -221,7 +221,7 @@
 
 				const envMapPromise =
 					new RGBELoader()
-						.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/equirectangular/' )
+						.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/equirectangular/' )
 						.loadAsync( 'royal_esplanade_1k.hdr' )
 						.then( tex => {
 
@@ -514,7 +514,7 @@
 		<!-- LDraw.org CC BY 2.0 Parts Library attribution -->
 		<div style="display: block; position: absolute; bottom: 8px; left: 8px; width: 160px; padding: 10px; background-color: #F3F7F8;">
 			<center>
-				<a href="http://www.ldraw.org"><img style="width: 145px" src="https://Leexiaop.github.io/statics/threejs_offical_resource/models/ldraw/ldraw_org_logo/Stamp145.png"></a>
+				<a href="http://www.ldraw.org"><img style="width: 145px" src="https://Leexiaop.github.io/static/threejs_offical_resource/models/ldraw/ldraw_org_logo/Stamp145.png"></a>
 				<br />
 				<a href="http://www.ldraw.org/">This software uses the LDraw Parts Library</a>
 			</center>

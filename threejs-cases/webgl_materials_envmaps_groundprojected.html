@@ -15,7 +15,7 @@
 		<div id="container"></div>
 		<div id="info">
 			<a href="https://threejs.org" target="_blank" rel="noopener">threejs</a> - Ground projected environment mapping. By <a href="https://twitter.com/CantBeFaraz" target="_blank" rel="noopener">Faraz Shaikh</a>.<br>
-			Ferrari 458 Italia model by <a href="https://sketchfab.com/https://Leexiaop.github.io/statics/threejs_offical_resource/models/57bf6cc56931426e87494f554df1dab6" target="_blank" rel="noopener">vicent091036</a><br>
+			Ferrari 458 Italia model by <a href="https://sketchfab.com/https://Leexiaop.github.io/static/threejs_offical_resource/models/57bf6cc56931426e87494f554df1dab6" target="_blank" rel="noopener">vicent091036</a><br>
 			<a href="https://polyhaven.com/a/blouberg_sunrise_2" target="_blank" rel="noopener">Blouberg Sunrise 2</a> by <a href="https://gregzaal.com/" target="_blank" rel="noopener">Greg Zaal</a>
 		</div>
 
@@ -26,8 +26,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -65,7 +65,7 @@
 				scene = new THREE.Scene();
 
 				const hdrLoader = new RGBELoader();
-				const envMap = await hdrLoader.loadAsync( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/equirectangular/blouberg_sunrise_2_1k.hdr' );
+				const envMap = await hdrLoader.loadAsync( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/equirectangular/blouberg_sunrise_2_1k.hdr' );
 				envMap.mapping = THREE.EquirectangularReflectionMapping;
 
 				skybox = new GroundProjectedSkybox( envMap );
@@ -75,14 +75,14 @@
 				scene.environment = envMap;
 
 				const dracoLoader = new DRACOLoader();
-				dracoLoader.setDecoderPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/libs/draco/gltf/' );
+				dracoLoader.setDecoderPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/jsm/libs/draco/gltf/' );
 
 				const loader = new GLTFLoader();
 				loader.setDRACOLoader( dracoLoader );
 
-				const shadow = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/ferrari_ao.png' );
+				const shadow = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/ferrari_ao.png' );
 
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/ferrari.glb', function ( gltf ) {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/ferrari.glb', function ( gltf ) {
 
 					const bodyMaterial = new THREE.MeshPhysicalMaterial( {
 						color: 0x000000, metalness: 1.0, roughness: 0.8,

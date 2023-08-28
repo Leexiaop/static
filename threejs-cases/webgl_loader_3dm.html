@@ -39,8 +39,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -80,7 +80,7 @@
 
 				const loader = new Rhino3dmLoader();
 				loader.setLibraryPath( 'https://cdn.jsdelivr.net/npm/rhino3dm@7.15.0/' );
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/3dm/Rhino_Logo.3dm', function ( object ) {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/3dm/Rhino_Logo.3dm', function ( object ) {
 
 					scene.add( object );
 					initGUI( object.userData.layers );

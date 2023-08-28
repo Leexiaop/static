@@ -23,7 +23,7 @@
 	<body>
 		<div id="info">
 			<a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> car materials<br/>
-			Ferrari 458 Italia model by <a href="https://sketchfab.com/https://Leexiaop.github.io/statics/threejs_offical_resource/models/57bf6cc56931426e87494f554df1dab6" target="_blank" rel="noopener">vicent091036</a>
+			Ferrari 458 Italia model by <a href="https://sketchfab.com/https://Leexiaop.github.io/static/threejs_offical_resource/models/57bf6cc56931426e87494f554df1dab6" target="_blank" rel="noopener">vicent091036</a>
 			<br><br>
 			<span class="colorPicker"><input id="body-color" type="color" value="#ff0000"></input><br/>Body</span>
 			<span class="colorPicker"><input id="details-color" type="color" value="#ffffff"></input><br/>Details</span>
@@ -39,8 +39,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -95,7 +95,7 @@
 
 				scene = new THREE.Scene();
 				scene.background = new THREE.Color( 0x333333 );
-				scene.environment = new RGBELoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/equirectangular/venice_sunset_1k.hdr' );
+				scene.environment = new RGBELoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/equirectangular/venice_sunset_1k.hdr' );
 				scene.environment.mapping = THREE.EquirectangularReflectionMapping;
 				scene.fog = new THREE.Fog( 0x333333, 10, 15 );
 
@@ -142,15 +142,15 @@
 
 				// Car
 
-				const shadow = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/ferrari_ao.png' );
+				const shadow = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/ferrari_ao.png' );
 
 				const dracoLoader = new DRACOLoader();
-				dracoLoader.setDecoderPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/libs/draco/gltf/' );
+				dracoLoader.setDecoderPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/jsm/libs/draco/gltf/' );
 
 				const loader = new GLTFLoader();
 				loader.setDRACOLoader( dracoLoader );
 
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/ferrari.glb', function ( gltf ) {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/ferrari.glb', function ( gltf ) {
 
 					const carModel = gltf.scene.children[ 0 ];
 

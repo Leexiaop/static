@@ -17,8 +17,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -79,13 +79,13 @@
 				controls.update();
 
 				const ktx2Loader = new KTX2Loader()
-					.setTranscoderPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/libs/basis/' )
+					.setTranscoderPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/jsm/libs/basis/' )
 					.detectSupport( renderer );
 
 				const loader = new GLTFLoader();
 				loader.setKTX2Loader( ktx2Loader );
 				loader.setMeshoptDecoder( MeshoptDecoder );
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/coffeemat.glb', function ( gltf ) {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/coffeemat.glb', function ( gltf ) {
 
 					const gltfScene = gltf.scene;
 					gltfScene.position.y = - .8;

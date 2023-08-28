@@ -24,8 +24,8 @@
 	<script type="importmap">
 		{
 			"imports": {
-				"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-				"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+				"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+				"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 			}
 		}
 	</script>
@@ -65,7 +65,7 @@
 
 		// Configure and create Draco decoder.
 		const dracoLoader = new DRACOLoader();
-		dracoLoader.setDecoderPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/libs/draco/' );
+		dracoLoader.setDecoderPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/jsm/libs/draco/' );
 		dracoLoader.setDecoderConfig( { type: 'js' } );
 
 		init();
@@ -102,7 +102,7 @@
 			spotLight.position.set( - 1, 1, 1 );
 			scene.add( spotLight );
 
-			dracoLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/draco/bunny.drc', function ( geometry ) {
+			dracoLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/draco/bunny.drc', function ( geometry ) {
 
 				geometry.computeVertexNormals();
 

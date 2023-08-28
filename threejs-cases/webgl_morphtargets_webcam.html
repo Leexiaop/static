@@ -25,8 +25,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -131,13 +131,13 @@
 			// Face
 
 			const ktx2Loader = new KTX2Loader()
-				.setTranscoderPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/libs/basis/' )
+				.setTranscoderPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/jsm/libs/basis/' )
 				.detectSupport( renderer );
 
 			new GLTFLoader()
 				.setKTX2Loader( ktx2Loader )
 				.setMeshoptDecoder( MeshoptDecoder )
-				.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/facecap.glb', ( gltf ) => {
+				.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/facecap.glb', ( gltf ) => {
 
 					const mesh = gltf.scene.children[ 0 ];
 					scene.add( mesh );
@@ -184,7 +184,7 @@
 
 			const faceLandmarker = await FaceLandmarker.createFromOptions( filesetResolver, {
 				baseOptions: {
-					modelAssetPath: 'https://storage.googleapis.com/mediapipe-https://Leexiaop.github.io/statics/threejs_offical_resource/models/face_landmarker/face_landmarker/float16/1/face_landmarker.task',
+					modelAssetPath: 'https://storage.googleapis.com/mediapipe-https://Leexiaop.github.io/static/threejs_offical_resource/models/face_landmarker/face_landmarker/float16/1/face_landmarker.task',
 					delegate: 'GPU'
 				},
 				outputFaceBlendshapes: true,

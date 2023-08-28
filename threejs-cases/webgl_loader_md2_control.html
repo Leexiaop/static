@@ -29,8 +29,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -114,7 +114,7 @@
 
 				//  GROUND
 
-				const gt = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/terrain/grasslight-big.jpg' );
+				const gt = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/terrain/grasslight-big.jpg' );
 				const gg = new THREE.PlaneGeometry( 16000, 16000 );
 				const gm = new THREE.MeshPhongMaterial( { color: 0xffffff, map: gt } );
 
@@ -162,7 +162,7 @@
 
 				const configOgro = {
 
-					baseUrl: 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/md2/ogro/',
+					baseUrl: 'https://Leexiaop.github.io/static/threejs_offical_resource/models/md2/ogro/',
 
 					body: 'ogro.md2',
 					skins: [ 'grok.jpg', 'ogrobase.png', 'arboshak.png', 'ctf_r.png', 'ctf_b.png', 'darkam.png', 'freedom.png',

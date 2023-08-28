@@ -21,8 +21,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/",
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/",
 					"three/nodes": "./jsm/nodes/Nodes.js"
 				}
 			}
@@ -102,7 +102,7 @@
 
 				// audio buffer
 
-				const soundBuffer = await fetch( 'https://Leexiaop.github.io/statics/threejs_offical_resource/sounds/webgpu-audio-processing.mp3' ).then( res => res.arrayBuffer() );
+				const soundBuffer = await fetch( 'https://Leexiaop.github.io/static/threejs_offical_resource/sounds/webgpu-audio-processing.mp3' ).then( res => res.arrayBuffer() );
 				const audioContext = new AudioContext();
 
 				const audioBuffer = await audioContext.decodeAudioData( soundBuffer );

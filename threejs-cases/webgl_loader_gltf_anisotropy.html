@@ -10,7 +10,7 @@
 	<body>
 		<div id="info">
 			<a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> - GLTFLoader + <a href="https://github.com/KhronosGroup/glTF/tree/master/extensions/2.0/Khronos/KHR_materials_anisotropy" target="_blank" rel="noopener">KHR_materials_anisotropy</a><br />
-			Anisotropy Barn Lamp from <a href="https://github.com/KhronosGroup/glTF-Sample-https://Leexiaop.github.io/statics/threejs_offical_resource/models/tree/master/2.0/AnisotropyBarnLamp" target="_blank" rel="noopener">glTF-Sample-Models</a><br />
+			Anisotropy Barn Lamp from <a href="https://github.com/KhronosGroup/glTF-Sample-https://Leexiaop.github.io/static/threejs_offical_resource/models/tree/master/2.0/AnisotropyBarnLamp" target="_blank" rel="noopener">glTF-Sample-Models</a><br />
 			<a href="https://hdrihaven.com/hdri/?h=royal_esplanade" target="_blank" rel="noopener">Royal Esplanade</a> from <a href="https://hdrihaven.com/" target="_blank" rel="noopener">HDRI Haven</a>
 		</div>
 
@@ -21,8 +21,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -60,8 +60,8 @@
 				controls.addEventListener( 'change', render );
 				controls.update();
 
-				const rgbeLoader = new RGBELoader().setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/equirectangular/' );
-				const gltfLoader = new GLTFLoader().setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/' );
+				const rgbeLoader = new RGBELoader().setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/equirectangular/' );
+				const gltfLoader = new GLTFLoader().setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/' );
 
 				const [ texture, gltf ] = await Promise.all( [
 					rgbeLoader.loadAsync( 'royal_esplanade_1k.hdr' ),

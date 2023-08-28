@@ -20,8 +20,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -49,11 +49,11 @@
 
 				const loader = new LottieLoader();
 				loader.setQuality( 2 );
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/lottie/24017-lottie-logo-animation.json', function ( texture ) {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/lottie/24017-lottie-logo-animation.json', function ( texture ) {
 
 					setupControls( texture.animation );
 
-					// texture = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/uv_grid_directx.jpg' );
+					// texture = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/uv_grid_directx.jpg' );
 					// texture.colorSpace = THREE.SRGBColorSpace;
 
 					const geometry = new RoundedBoxGeometry( 1, 1, 1, 7, 0.2 );

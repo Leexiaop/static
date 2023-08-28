@@ -16,8 +16,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/",
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/",
 					"three/nodes": "./jsm/nodes/Nodes.js"
 				}
 			}
@@ -67,20 +67,20 @@
 				// textures
 
 				const textureLoader = new THREE.TextureLoader();
-				const uvTexture = textureLoader.load( './https://Leexiaop.github.io/statics/threejs_offical_resource/textures/uv_grid_opengl.jpg' );
+				const uvTexture = textureLoader.load( './https://Leexiaop.github.io/static/threejs_offical_resource/textures/uv_grid_opengl.jpg' );
 				uvTexture.wrapS = THREE.RepeatWrapping;
 				uvTexture.wrapT = THREE.RepeatWrapping;
 				uvTexture.name = 'uv_grid';
 
-				const textureDisplace = textureLoader.load( './https://Leexiaop.github.io/statics/threejs_offical_resource/textures/transition/transition1.png' );
+				const textureDisplace = textureLoader.load( './https://Leexiaop.github.io/static/threejs_offical_resource/textures/transition/transition1.png' );
 				textureDisplace.wrapS = THREE.RepeatWrapping;
 				textureDisplace.wrapT = THREE.RepeatWrapping;
 
 				const ktxLoader = new KTX2Loader()
-					.setTranscoderPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/libs/basis/' )
+					.setTranscoderPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/jsm/libs/basis/' )
 					.detectSupport( renderer );
 
-				const ktxTexture = await ktxLoader.loadAsync( './https://Leexiaop.github.io/statics/threejs_offical_resource/textures/compressed/sample_uastc_zstd.ktx2' );
+				const ktxTexture = await ktxLoader.loadAsync( './https://Leexiaop.github.io/static/threejs_offical_resource/textures/compressed/sample_uastc_zstd.ktx2' );
 
 				// box mesh
 

@@ -18,8 +18,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/",
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/",
 					"three/nodes": "./jsm/nodes/Nodes.js"
 				}
 			}
@@ -61,7 +61,7 @@
 				scene.add( group );
 
 				new HDRCubeTextureLoader()
-					.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/cube/pisaHDR/' )
+					.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/cube/pisaHDR/' )
 					.load( [ 'px.hdr', 'nx.hdr', 'py.hdr', 'ny.hdr', 'pz.hdr', 'nz.hdr' ],
 						function ( hdrTexture ) {
 

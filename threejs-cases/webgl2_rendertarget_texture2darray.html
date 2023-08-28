@@ -102,8 +102,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -198,7 +198,7 @@
 
 				new THREE.FileLoader()
 					.setResponseType( 'arraybuffer' )
-					.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/3d/head256x256x109.zip', function ( data ) {
+					.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/3d/head256x256x109.zip', function ( data ) {
 
 						const zip = unzipSync( new Uint8Array( data ) );
 						const array = new Uint8Array( zip[ 'head256x256x109' ].buffer );

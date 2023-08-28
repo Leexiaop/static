@@ -21,8 +21,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -56,14 +56,14 @@
 				scene = new THREE.Scene();
 
 				const rgbeLoader = new RGBELoader();
-				const envMap = await rgbeLoader.loadAsync( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/equirectangular/moonless_golf_1k.hdr ' );
+				const envMap = await rgbeLoader.loadAsync( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/equirectangular/moonless_golf_1k.hdr ' );
 				envMap.mapping = THREE.EquirectangularReflectionMapping;
 
 				scene.background = envMap;
 				scene.environment = envMap;
 
 				const loader = new GLTFLoader();
-				const gltf = await loader.loadAsync( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/gltf/LightsPunctualLamp.glb' );
+				const gltf = await loader.loadAsync( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/gltf/LightsPunctualLamp.glb' );
 
 				scene.add( gltf.scene );
 

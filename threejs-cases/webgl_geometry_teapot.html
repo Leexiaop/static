@@ -19,8 +19,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -86,13 +86,13 @@
 				cameraControls.addEventListener( 'change', render );
 
 				// TEXTURE MAP
-				const textureMap = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/uv_grid_opengl.jpg' );
+				const textureMap = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/uv_grid_opengl.jpg' );
 				textureMap.wrapS = textureMap.wrapT = THREE.RepeatWrapping;
 				textureMap.anisotropy = 16;
 				textureMap.colorSpace = THREE.SRGBColorSpace;
 
 				// REFLECTION MAP
-				const path = 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/cube/pisa/';
+				const path = 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/cube/pisa/';
 				const urls = [ 'px.png', 'nx.png', 'py.png', 'ny.png', 'pz.png', 'nz.png' ];
 
 				textureCube = new THREE.CubeTextureLoader().setPath( path ).load( urls );

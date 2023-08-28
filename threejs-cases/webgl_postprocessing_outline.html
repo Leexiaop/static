@@ -18,8 +18,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -170,7 +170,7 @@
 				// model
 
 				const loader = new OBJLoader();
-				loader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/models/obj/tree.obj', function ( object ) {
+				loader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/models/obj/tree.obj', function ( object ) {
 
 					let scale = 1.0;
 
@@ -254,7 +254,7 @@
 				composer.addPass( outlinePass );
 
 				const textureLoader = new THREE.TextureLoader();
-				textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/tri_pattern.jpg', function ( texture ) {
+				textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/tri_pattern.jpg', function ( texture ) {
 
 					outlinePass.patternTexture = texture;
 					texture.wrapS = THREE.RepeatWrapping;

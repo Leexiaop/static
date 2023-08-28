@@ -23,8 +23,8 @@
 	<script type="importmap">
 		{
 			"imports": {
-				"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-				"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+				"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+				"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 			}
 		}
 	</script>
@@ -146,7 +146,7 @@
 
 			// environment map
 
-			const path = 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/cube/SwedishRoyalCastle/';
+			const path = 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/cube/SwedishRoyalCastle/';
 			const format = '.jpg';
 			const urls = [
 				path + 'px' + format, path + 'nx' + format,
@@ -167,7 +167,7 @@
 			const hatchingMaterial = createShaderMaterial( ToonShaderHatching, light, ambientLight );
 			const dottedMaterial = createShaderMaterial( ToonShaderDotted, light, ambientLight );
 
-			const texture = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/uv_grid_opengl.jpg' );
+			const texture = new THREE.TextureLoader().load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/uv_grid_opengl.jpg' );
 			texture.wrapS = THREE.RepeatWrapping;
 			texture.wrapT = THREE.RepeatWrapping;
 			texture.colorSpace = THREE.SRGBColorSpace;

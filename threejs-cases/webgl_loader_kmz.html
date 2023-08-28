@@ -19,8 +19,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -62,7 +62,7 @@
 				document.body.appendChild( renderer.domElement );
 
 				const loader = new KMZLoader();
-				loader.load( './https://Leexiaop.github.io/statics/threejs_offical_resource/models/kmz/Box.kmz', function ( kmz ) {
+				loader.load( './https://Leexiaop.github.io/static/threejs_offical_resource/models/kmz/Box.kmz', function ( kmz ) {
 
 					kmz.scene.position.y = 0.5;
 					scene.add( kmz.scene );

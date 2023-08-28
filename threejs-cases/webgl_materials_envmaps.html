@@ -20,8 +20,8 @@
 		<script type="importmap">
 			{
 				"imports": {
-					"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-					"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+					"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+					"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 				}
 			}
 		</script>
@@ -54,13 +54,13 @@
 				// Textures
 
 				const loader = new THREE.CubeTextureLoader();
-				loader.setPath( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/cube/Bridge2/' );
+				loader.setPath( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/cube/Bridge2/' );
 
 				textureCube = loader.load( [ 'posx.jpg', 'negx.jpg', 'posy.jpg', 'negy.jpg', 'posz.jpg', 'negz.jpg' ] );
 
 				const textureLoader = new THREE.TextureLoader();
 
-				textureEquirec = textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/2294472375_24a3b8ef46_o.jpg' );
+				textureEquirec = textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/2294472375_24a3b8ef46_o.jpg' );
 				textureEquirec.mapping = THREE.EquirectangularReflectionMapping;
 				textureEquirec.colorSpace = THREE.SRGBColorSpace;
 

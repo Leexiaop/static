@@ -14,7 +14,7 @@
 	<div id="info">Ammo.js physics soft body rope demo<br>Press Q or A to move the arm.</div>
 	<div id="container"></div>
 
-	<script src="https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/libs/ammo.wasm.js"></script>
+	<script src="https://Leexiaop.github.io/static/threejs_offical_resource/jsm/libs/ammo.wasm.js"></script>
 
 	<!-- Import maps polyfill -->
 	<!-- Remove this when import maps will be widely supported -->
@@ -23,8 +23,8 @@
 	<script type="importmap">
 		{
 			"imports": {
-				"three": "https://Leexiaop.github.io/statics/threejs/three.module.js",
-				"three/addons/": "https://Leexiaop.github.io/statics/threejs_offical_resource/jsm/"
+				"three": "https://Leexiaop.github.io/static/threejs/three.module.js",
+				"three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
 			}
 		}
 	</script>
@@ -161,7 +161,7 @@
 			const ground = createParalellepiped( 40, 1, 40, 0, pos, quat, new THREE.MeshPhongMaterial( { color: 0xFFFFFF } ) );
 			ground.castShadow = true;
 			ground.receiveShadow = true;
-			textureLoader.load( 'https://Leexiaop.github.io/statics/threejs_offical_resource/textures/grid.png', function ( texture ) {
+			textureLoader.load( 'https://Leexiaop.github.io/static/threejs_offical_resource/textures/grid.png', function ( texture ) {
 
 				texture.colorSpace = THREE.SRGBColorSpace;
 				texture.wrapS = THREE.RepeatWrapping;
