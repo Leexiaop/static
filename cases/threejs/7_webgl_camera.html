@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://Leexiaop.github.io/static/cdn/three.module.js",
+                "three/addons/": "https://Leexiaop.github.io/static/threejs_offical_resource/jsm/"
+            }
+        }
+    </script>
+    
+    <script type="module">
+        import * as THREE from 'three'
+
+        function animation () {
+            requestAnimationFrame(animation)
+        }
+        window.onresize = () => {
+            camera.aspect = window.innerWidth / window.innerHeight
+            camera.updateProjectionMatrix()
+            renderer.setSize(window.innerWidth, window.innerHeight)
+            renderer.setPixelRatio(window.devicePixelRatio)
+        }
+    </script>
+</body>
+</html>
