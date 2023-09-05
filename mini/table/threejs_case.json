@@ -14,13 +14,13 @@
 		"disabled": true
 	}, {
 		"name": "webgl_animation_skinning_morph",
-		"disabled": true
+		"disabled": false
 	}, {
 		"name": "webgl_animation_multiple",
-		"disabled": true
+		"disabled": false
 	}, {
 		"name": "webgl_camera",
-		"disabled": true
+		"disabled": false
 	}, {
 		"name": "webgl_camera_array",
 		"disabled": true
