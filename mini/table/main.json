@@ -2,24 +2,27 @@
     {
         "title": "vue2源码",
         "icon": "flower-o",
-        "motto": "vue2完整版源码，讲解底层原理"
+        "motto": "vue2完整版源码，讲解底层原理",
+        "url": "vue2"
     },
     {
         "title": "React源码",
         "icon": "comment-o",
-        "motto": "vue2完整版源码，讲解底层原理",
+        "motto": "React完整版源码，讲解底层原理",
         "disabled": true
     },
     {
         "title": "非常规组件源码",
         "icon": "paid",
-        "motto": "实现工作中常用到的，但是组件库没有的组件"
+        "motto": "实现工作中常用到的，但是组件库没有的组件",
+        "disabled": true
     },
     {
         "title": "前端算法题",
         "icon": "orders-o",
         "motto": "前端面试基本算法，主要为初级和中级难度",
-        "img": "https://leexiaop.github.io/static/mini/img/1.jpg"
+        "img": "https://leexiaop.github.io/static/mini/img/1.jpg",
+        "url": "leetcode"
     },
     {
         "title": "webgl",
@@ -37,7 +40,8 @@
         "title": "JS编程题",
         "icon": "hotel-o",
         "motto": "不同于算法，只是手写一些js常用方法",
-        "img": "https://leexiaop.github.io/static/mini/img/2.jpg"
+        "img": "https://leexiaop.github.io/static/mini/img/2.jpg",
+        "url": "jscoding"
     },
     {
         "title": "THREEJS",
@@ -54,11 +58,13 @@
     {
         "title": "THREEjs案例",
         "icon": "desktop-o",
-        "motto": "三维世界的案例"
+        "motto": "三维世界的案例",
+        "url": "threejs_case"
     },
     {
         "title": "企业真题",
         "icon": "notes-o",
-        "motto": "曾经面试过的企业真题总结"
+        "motto": "曾经面试过的企业真题总结",
+        "disabled": true
     }
 ]
