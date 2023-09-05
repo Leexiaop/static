@@ -40,11 +40,6 @@
         "img": "https://leexiaop.github.io/static/mini/img/2.jpg"
     },
     {
-        "title": "资源下载",
-        "icon": "points",
-        "motto": "工作中常用的资源整合下载"
-    },
-    {
         "title": "THREEJS",
         "icon": "gem-o",
         "motto": "相对比较简单的三维开发技术栈，在未来应该会有比较好的市场,也许会成为前端的一个方向！",
@@ -62,8 +57,8 @@
         "motto": "三维世界的案例"
     },
     {
-        "title": "公司真题",
+        "title": "企业真题",
         "icon": "notes-o",
-        "motto": "曾经面试过的公司真题总结"
+        "motto": "曾经面试过的企业真题总结"
     }
 ]
