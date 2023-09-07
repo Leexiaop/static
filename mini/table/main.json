@@ -65,6 +65,7 @@
         "title": "企业真题",
         "icon": "notes-o",
         "motto": "曾经面试过的企业真题总结",
-        "disabled": true
+        "disabled": true,
+        "img": "https://leexiaop.github.io/static/mini/img/avatar.jpeg"
     }
 ]
