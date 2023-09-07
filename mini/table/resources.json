@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "尚硅谷_韩顺平_Go语言核心编程",
+        "subTitle": "全网最详细，最细致的go初级教程",
+        "origin": "尚硅谷",
+        "type": "pdf",
+        "category": 4,
+        "url": "https://leexiaop.github.io/static/mini/docs/resources/尚硅谷_韩顺平_Go语言核心编程.pdf"
+    },
+    {
+        "id": 2,
+        "name": "xxxxxxxxxxxxxx",
+        "subTitle": "全网最详细，最细致的go初级教程",
+        "origin": "尚硅谷",
+        "type": "file",
+        "category": 4,
+        "url": "https://leexiaop.github.io/static/mini/docs/resources/尚硅谷_韩顺平_Go语言核心编程.pdf"
+    }
+]
