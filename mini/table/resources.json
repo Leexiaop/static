@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "尚硅谷_韩顺平_Go语言核心编程",
+        "name": "韩顺平_Go语言核心编程",
         "subTitle": "全网最详细，最细致的go初级教程",
         "desc": "尚硅谷菁英师资整合业界资源，历时一年，打磨出专注于区块链技术的GO语言视频教程。教程采用真实案例，全面具体可落地，从理论到实践，一步一步将GO核心编程技术、编程思想、底层实现融会贯通，使学习者贴近时代脉搏，做IT互联网时代的弄潮儿。",
         "recommand": 3.5,
@@ -10,25 +10,25 @@
         "category": 5,
         "ispassword": false,
         "iscopy": true,
-        "ischeck": true,
+        "isdownload": true,
         "password": "",
-        "checkUrl": "https://leexiaop.github.io/static/mini/docs/resources/尚硅谷_韩顺平_Go语言核心编程.pdf",
-        "copyUrl": "https://leexiaop.github.io/static/mini/docs/resources/尚硅谷_韩顺平_Go语言核心编程.pdf"
+        "downloadUrl": "https://leexiaop.github.io/static/mini/docs/resources/尚硅谷_韩顺平_Go语言核心编程.pdf",
+        "copyUrl": "https://www.bilibili.com/video/BV1ME411Y71o"
     },
     {
         "id": 2,
-        "name": "黑马前端监控SKD实战，设计前端监控体系",
-        "subTitle": "全网最详细，最细致的go初级教程",
-        "desc": "尚硅谷菁英师资整合业界资源，历时一年，打磨出专注于区块链技术的GO语言视频教程。教程采用真实案例，全面具体可落地，从理论到实践，一步一步将GO核心编程技术、编程思想、底层实现融会贯通，使学习者贴近时代脉搏，做IT互联网时代的弄潮儿。",
-        "recommand": 3.5,
-        "origin": "尚硅谷",
+        "name": "黑马_前端监控-报警-统计SDK",
+        "subTitle": "前端进阶的基础教程，有视频，有源码，有实操",
+        "desc": "前端页面会直接面向用户，页面稳定对用户体验有很大影响。拥有一套完善的监控体系就很有必要了，检测到异常能在第一时间上报，让开发人员更快定位问题，在最短时间内完成故障修复。采集的真实性能数据，对于优化用户体验也有很大帮助。本次课程就带大家从零实现一个前端监控的sdk，包括前端的埋点、错误监控应对方式等内容。",
+        "recommand": 4,
+        "origin": "黑马程序员",
         "type": 0,
         "category": 5,
         "ispassword": false,
         "iscopy": true,
-        "ischeck": true,
+        "isdownload": false,
         "password": "",
-        "checkUrl": "https://leexiaop.github.io/static/mini/docs/resources/尚硅谷_韩顺平_Go语言核心编程.pdf",
-        "copyUrl": "https://leexiaop.github.io/static/mini/docs/resources/尚硅谷_韩顺平_Go语言核心编程.pdf"
+        "downloadUrl": "",
+        "copyUrl": "https://www.bilibili.com/video/BV1MY4y1D75D/?spm_id_from=333.999.0.0&vd_source=b9decac1c30965752c71059a43e1a174"
     }
 ]
