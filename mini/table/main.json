@@ -14,6 +14,7 @@
     {
         "title": "非常规组件源码",
         "icon": "paid",
+        "url": "components",
         "motto": "实现工作中常用到的，但是组件库没有的组件"
     },
     {
