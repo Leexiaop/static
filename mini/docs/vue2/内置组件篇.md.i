@@ -467,7 +467,7 @@ else {
 
 它的算法是这样子的：
 
-![](http://leexiaop.github.io/static/ibadgers/code/vue2/component_3.gif)
+![](http://leexiaop.github.io/static/ibadgers/code/vue2/component_3.png)
 
 1. 将新数据从尾部插入到`this.keys`中；
 2. 每当缓存命中（即缓存数据被访问），则将数据移到`this.keys`的尾部；
