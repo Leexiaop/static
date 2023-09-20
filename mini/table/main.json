@@ -25,8 +25,8 @@
         "url": "leetcode"
     },
     {
-        "title": "l",
-        "icon": "send-gift-o",
+        "title": "webgl",
+        "icon": "l",
         "motto": "webgl是html5的一个新的标准，但就目前而言，很可能会成为当前前端就业的一个突破口和方向。",
         "disabled": true
     },
