@@ -1,69 +1,69 @@
 [
     {
         "title": "vue2源码",
-        "icon": "flower-o",
+        "icon": "v",
         "motto": "vue2在23年低即将停止更新，技术源码也将随之成为每个前端程序员每个熬夜加班日日夜夜最美好的回忆。",
         "url": "vue2"
     },
     {
         "title": "React源码",
-        "icon": "comment-o",
+        "icon": "r",
         "motto": "前端进阶离不开react，底层设计原理和react的设计思想，是我们进阶然不开的路，更新了那么多版本，也该看看源码了。",
         "disabled": true
     },
     {
         "title": "非常规组件源码",
         "icon": "paid",
-        "url": "components",
+        "url": "c",
         "motto": "写组件不希望再是antd那样的嗟来之食，要设身处地的想象在工作中的场景是什么，解决什么样的问题，来开发那样的非常规组件。"
     },
     {
         "title": "前端算法题",
-        "icon": "orders-o",
+        "icon": "a",
         "motto": "近年来，随着就业压力的不断增加，前端也开始卷算法，尤其是大厂，但是前端算法的难度不会太大，主要还是集中在数组，字符串，以及算法思想等的考察。",
         "img": "https://leexiaop.github.io/static/mini/img/1.jpg",
         "url": "leetcode"
     },
     {
-        "title": "webgl",
+        "title": "l",
         "icon": "send-gift-o",
         "motto": "webgl是html5的一个新的标准，但就目前而言，很可能会成为当前前端就业的一个突破口和方向。",
         "disabled": true
     },
     {
         "title": "webgpu",
-        "icon": "bag-o",
+        "icon": "p",
         "motto": "从某种意义上来说webgpu是webgl的升级版本，性能大大加强。学习webgpu也算是作为技术人未雨绸缪的事儿吧",
         "disabled": true
     },
     {
         "title": "JS编程题",
-        "icon": "hotel-o",
+        "icon": "j",
         "motto": "JS编程题，并不是算法，是实实在在的某种场景下的coding来解决某个问题。",
         "img": "https://leexiaop.github.io/static/mini/img/2.jpg",
         "url": "jscoding"
     },
     {
         "title": "ThreeJS",
-        "icon": "gem-o",
+        "icon": "t",
         "motto": "ThreeJS是对webgl的封装，在当前三维开发领域占据着主导地位，应用场景及其广泛，想要在三维开发有所建树，ThreeJS是一个绕不过去的库。",
         "disabled": true
     },
     {
         "title": "CesiumJS",
-        "icon": "award-o",
+        "icon": "c",
         "motto": "CesiumJS同样也是三维开发库，但是CesiumJS更侧重的是地球空间的开发。",
         "disabled": true
     },
     {
         "title": "ThreeJS案例",
-        "icon": "desktop-o",
+        "icon": "t",
         "motto": "这里ThreeJS官方的案例，为了能学习ThreeJS，就先从抄袭官方案例开始，也许它应该能覆盖开发中的大部分场景，并且能帮助初学者熟悉绝大多数的ThreeJS API。",
         "url": "threejs_case"
     },
     {
         "title": "企业真题",
-        "icon": "notes-o",
+        "icon": "q",
         "motto": "考试最需要的就是知道想要考什么，面试最需要的当然就是知道企业面试问什么，这里都是面试过来人面后的总结。应该可以提高进阶的概率吧，有总比没有强。",
         "disabled": false,
         "url": "company",
