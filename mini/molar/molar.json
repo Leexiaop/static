@@ -3,7 +3,7 @@
         "code": 110000,
         "name": "烤鸭",
         "id": 1,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_5.webp"
+        "url": "https://leexiaop.github.io/static/mini/img/1.jpg"
     },
     {
         "code": 100000,
@@ -27,7 +27,7 @@
         "code": 100000,
         "name": "烤鸭",
         "id": 5,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_5.webp"
+        "url": "https://leexiaop.github.io/static/mini/img/2.jpg"
     },
     {
         "code": 110000,
@@ -39,7 +39,7 @@
         "code": 110000,
         "name": "烤鸭",
         "id": 7,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_5.webp"
+        "url": "https://leexiaop.github.io/static/mini/img/avatar.jpeg"
     },
     {
         "code": 110000,
@@ -51,6 +51,6 @@
         "code": 110000,
         "name": "烤鸭",
         "id": 9,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_3.webp"
+        "url": "https://leexiaop.github.io/static/mini/img/center_bg.jpg"
     }
 ]
