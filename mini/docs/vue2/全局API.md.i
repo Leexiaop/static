@@ -1,9 +1,6 @@
 ---
 title: 全局API分析
 order: 30
-markdown: kramdown
-kramdown:
-  parse_block_html: true
 ---
 
 ## 0. 前言
