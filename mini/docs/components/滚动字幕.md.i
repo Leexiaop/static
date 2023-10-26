@@ -1,10 +1,3 @@
----
-title: 滚动字幕
-nav:
-    title: 滚动字幕
-    path: /components
----
-
 ## 代码演示
 
 ### 基础版

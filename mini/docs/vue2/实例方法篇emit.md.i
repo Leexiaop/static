@@ -1,8 +1,3 @@
----
-title: 实例方法篇emit
-order: 24
----
-
 ## vm.$emit
 
 ### 用法回顾

@@ -1,7 +1,3 @@
----
-title: 手动实现bind, call, apply方法并简述区别？
----
-
 ## apply、call、bind 的异同点
 
 ### 相同点

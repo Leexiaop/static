@@ -1,8 +1,3 @@
----
-title: 数据侦听篇之对象
-order: 2
----
-
 数据驱动试图的关键点是在于我们要知道`数据什么时候发生了变化`。我们知道了这么问题
 就因人而解。对于 Object 来说，Javascript 为我们提供了
 API:`Object.defineProperty()`来解决这个问题。

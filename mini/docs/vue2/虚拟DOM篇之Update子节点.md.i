@@ -1,8 +1,3 @@
----
-title: 虚拟DOM篇之Update子节点
-order: 6
----
-
 ## 更新子节点
 
 当新的 VNode 与旧的 oldVNode 都是元素节点并且都包含子节点时，那么这两个节点的

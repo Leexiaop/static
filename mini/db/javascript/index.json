@@ -16,7 +16,7 @@
         "icon": "c",
         "url": "components",
         "motto": "写组件不希望再是antd那样的嗟来之食，要设身处地的想象在工作中的场景是什么，解决什么样的问题，来开发那样的非常规组件。",
-        "img": "https://leexiaop.github.io/static/mini/img/avatar.jpeg"
+        "img": "https://leexiaop.github.io/static/mini/img/javascript/3.jpg"
     },
     {
         "title": "前端算法题",
@@ -35,7 +35,7 @@
         "icon": "f",
         "motto": "从某种意义上来说webgpu是webgl的升级版本，性能大大加强。学习webgpu也算是作为技术人未雨绸缪的事儿吧",
         "disabled": true,
-        "img": "https://leexiaop.github.io/static/mini/img/1.jpg"
+        "img": "https://leexiaop.github.io/static/mini/img/javascript/2.jpg"
     },
     {
         "title": "JS编程题",
@@ -66,7 +66,7 @@
         "icon": "k",
         "motto": "考试最需要的就是知道想要考什么，面试最需要的当然就是知道企业面试问什么，这里都是面试过来人面后的总结。应该可以提高进阶的概率吧，有总比没有强。",
         "disabled": false,
-        "img": "https://leexiaop.github.io/static/mini/img/2.jpg",
+        "img": "https://leexiaop.github.io/static/mini/img/javascript/1.jpg",
         "url": "company"
     },
     {
@@ -74,5 +74,11 @@
         "icon": "l",
         "motto": "前端设计模式，听起来一个高大上的名字，好像与我们并无什么直接关系，但我们却又不无时无刻在使用，所以这也成为了前端进阶的必备知识。",
         "url": "design_pattern"
+    },
+    {
+        "title": "Lodash源码解析",
+        "icon": "m",
+        "motto": "Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库，Lodash 遵循 MIT 开源协议发布，并且支持最新的运行环境。",
+        "url": "lodash"
     }
 ]

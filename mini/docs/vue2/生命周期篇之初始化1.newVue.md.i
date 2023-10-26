@@ -1,10 +1,3 @@
----
-title: 生命周期篇之初始化new Vue
-order: 15
----
-
----
-
 ## title: 初始化阶段(new Vue)
 
 ## 1. 前言

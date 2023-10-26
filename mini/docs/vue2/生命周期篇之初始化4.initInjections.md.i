@@ -1,8 +1,3 @@
----
-title: 生命周期篇之初始化initInjections
-order: 18
----
-
 ## 1. 前言
 
 本篇文章介绍生命周期初始化阶段所调用的第四个初始化函数——`initInjections`。从函数

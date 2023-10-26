@@ -1,8 +1,3 @@
----
-title: 实例方法篇once
-order: 27
----
-
 ## vm.$once
 
 ### 用法回顾

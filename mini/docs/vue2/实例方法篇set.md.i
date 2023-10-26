@@ -1,8 +1,3 @@
----
-title: 实例方法篇set
-order: 28
----
-
 ## vm.\$set
 
 `vm.$set` 是全局 `Vue.set` 的**别名**，其用法相同。

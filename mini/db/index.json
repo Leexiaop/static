@@ -1,0 +1,152 @@
+{
+    "navList": [
+        "http://127.0.0.1:5500/mini/img/javascript.jpg",
+        "http://127.0.0.1:5500/mini/img/design.jpg",
+        "http://127.0.0.1:5500/mini/img/hometown.jpg",
+        "http://127.0.0.1:5500/mini/img/product.jpg",
+        "http://127.0.0.1:5500/mini/img/shop.jpg",
+        "http://127.0.0.1:5500/mini/img/star.jpg"
+    ],
+    "javascriptList": [
+        "http://127.0.0.1:5500/mini/img/javascript/data_structure.png",
+        "http://127.0.0.1:5500/mini/img/javascript/react_code.png",
+        "http://127.0.0.1:5500/mini/img/javascript/threejs.png",
+        "http://127.0.0.1:5500/mini/img/javascript/design_pattern.png"
+    ],
+    "shopList": [
+        "http://127.0.0.1:5500/mini/img/shop/1.png",
+        "http://127.0.0.1:5500/mini/img/shop/2.png",
+        "http://127.0.0.1:5500/mini/img/shop/3.png",
+        "http://127.0.0.1:5500/mini/img/shop/4.png",
+        "http://127.0.0.1:5500/mini/img/shop/5.png",
+        "http://127.0.0.1:5500/mini/img/shop/6.png"
+    ],
+    "guitarList": [
+        {
+            "id": 1,
+            "type": 1,
+            "name": "光阴的故事",
+            "author": "罗大佑",
+            "avatar": "http://127.0.0.1:5500/mini/img/guitar/avatar/罗大佑.webp"
+        },
+        {
+            "id": 2,
+            "type": 2,
+            "name": "同桌的你",
+            "author": "老狼",
+            "avatar": "http://127.0.0.1:5500/mini/img/guitar/avatar/老狼.webp"
+        },
+        {
+            "id": 3,
+            "type": 1,
+            "name": "成都",
+            "author": "赵雷",
+            "avatar": "http://127.0.0.1:5500/mini/img/guitar/avatar/赵雷.webp"
+        },
+        {
+            "id": 4,
+            "type": 1,
+            "name": "情非得已",
+            "author": "庾澄庆",
+            "avatar": "http://127.0.0.1:5500/mini/img/guitar/avatar/庾澄庆.webp"
+        },
+        {
+            "id": 5,
+            "type": 1,
+            "name": "稻香",
+            "author": "周杰伦",
+            "avatar": "http://127.0.0.1:5500/mini/img/guitar/avatar/周杰伦.webp"
+        },
+        {
+            "id": 6,
+            "type": 1,
+            "name": "夜空中最亮的星",
+            "author": "逃跑计划",
+            "avatar": "http://127.0.0.1:5500/mini/img/guitar/avatar/逃跑计划.webp"
+        },
+        {
+            "id": 7,
+            "type": 1,
+            "name": "08年我们结婚",
+            "author": "逃跑计划",
+            "avatar": "http://127.0.0.1:5500/mini/img/guitar/avatar/逃跑计划.webp"
+        },
+        {
+            "id": 8,
+            "type": 1,
+            "name": "一万次悲伤",
+            "author": "逃跑计划",
+            "avatar": "http://127.0.0.1:5500/mini/img/guitar/avatar/逃跑计划.webp"
+        },
+        {
+            "id": 9,
+            "type": 2,
+            "name": "原来你也在这里",
+            "author": "刘若英",
+            "avatar": "http://127.0.0.1:5500/mini/img/guitar/avatar/刘若英.webp"
+        },
+        {
+            "id": 10,
+            "type": 1,
+            "name": "河流",
+            "author": "汪峰",
+            "avatar": "http://127.0.0.1:5500/mini/img/guitar/avatar/汪峰.webp"
+        },
+        {
+            "id": 11,
+            "type": 1,
+            "name": "当我想你的时候",
+            "author": "汪峰",
+            "avatar": "http://127.0.0.1:5500/mini/img/guitar/avatar/汪峰.webp"
+        },
+        {
+            "id": 12,
+            "type": 2,
+            "name": "成都",
+            "author": "赵雷",
+            "avatar": "http://127.0.0.1:5500/mini/img/guitar/avatar/赵雷.webp"
+        },
+        {
+            "id": 13,
+            "type": 2,
+            "name": "同桌的你",
+            "author": "老狼",
+            "avatar": "http://127.0.0.1:5500/mini/img/guitar/avatar/老狼.webp"
+        },
+        {
+            "id": 14,
+            "type": 2,
+            "name": "童年",
+            "author": "罗大佑",
+            "avatar": "http://127.0.0.1:5500/mini/img/guitar/avatar/罗大佑.webp"
+        },
+        {
+            "id": 15,
+            "type": 2,
+            "name": "夜空中最亮的星",
+            "author":"逃跑计划",
+            "avatar": "http://127.0.0.1:5500/mini/img/guitar/avatar/逃跑计划.webp"
+        },
+        {
+            "id": 16,
+            "type": 2,
+            "name": "勇气",
+            "author":"梁静茹",
+            "avatar": "http://127.0.0.1:5500/mini/img/guitar/avatar/梁静茹.webp"
+        },
+        {
+            "id": 17,
+            "type": 2,
+            "name": "约定",
+            "author":"周慧",
+            "avatar": "http://127.0.0.1:5500/mini/img/guitar/avatar/周慧.webp"
+        },
+        {
+            "id": 18,
+            "type": 2,
+            "name": "通话",
+            "author":"光良",
+            "avatar": "http://127.0.0.1:5500/mini/img/guitar/avatar/光良.webp"
+        }
+    ]
+}

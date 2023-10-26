@@ -1,8 +1,3 @@
----
-title: 实例方法篇watch
-order: 29
----
-
 ## vm.\$watch
 
 ### 用法回顾

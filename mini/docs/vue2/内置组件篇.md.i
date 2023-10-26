@@ -1,8 +1,3 @@
----
-title: 内置组件篇之keep-alive
-order: 35
----
-
 ## 1. 前言
 
 `<keep-alive>` 是 `Vue` 实现的一个内置组件，也就是说 `Vue` 源码不仅实现了一套组

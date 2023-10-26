@@ -1,8 +1,3 @@
----
-title: 实例方法篇delete
-order: 23
----
-
 ## vm.\$delete
 
 `vm.$delete` 是全局 `Vue.delete`的**别名**，其用法相同。
