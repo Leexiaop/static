@@ -1,56 +1,107 @@
-[
-    {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 1,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_1.webp"
-    },
-    {
-        "code": 100000,
-        "name": "烤鸭",
-        "id": 2,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    },
-    {
-        "code": 100000,
-        "name": "烤鸭",
-        "id": 3,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_3.webp"
-    },
-    {
-        "code": 100000,
-        "name": "烤鸭",
-        "id": 4,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_4.webp"
-    },
-    {
-        "code": 100000,
-        "name": "烤鸭",
-        "id": 5,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_5.webp"
-    },
-    {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 6,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_5.webp"
-    },
-    {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 7,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_1.webp"
-    },
-    {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 8,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    },
-    {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 9,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_3.webp"
-    }
-]
+{
+    "navList": [],
+    "list": [
+        {
+            "code": 100000,
+            "name": "烤鸭",
+            "id": 1,
+            "url": "https://leexiaop.github.io/static/mini/img/nav_1.webp"
+        },
+        {
+            "code": 100000,
+            "name": "烤鸭",
+            "id": 2,
+            "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
+        },
+        {
+            "code": 100000,
+            "name": "烤鸭",
+            "id": 3,
+            "url": "https://leexiaop.github.io/static/mini/img/nav_3.webp"
+        },
+        {
+            "code": 100000,
+            "name": "烤鸭",
+            "id": 4,
+            "url": "https://leexiaop.github.io/static/mini/img/nav_4.webp"
+        },
+        {
+            "code": 100000,
+            "name": "烤鸭",
+            "id": 5,
+            "url": "https://leexiaop.github.io/static/mini/img/nav_5.webp"
+        },
+        {
+            "code": 150000,
+            "name": "烤鸭",
+            "id": 6,
+            "url": "http://127.0.0.1:5500/mini/img/shop/150000/1.jpg"
+        },
+        {
+            "code": 150000,
+            "name": "烤鸭",
+            "id": 7,
+            "url": "http://127.0.0.1:5500/mini/img/shop/150000/2.jpg"
+        },
+        {
+            "code": 150000,
+            "name": "烤鸭",
+            "id": 8,
+            "url": "http://127.0.0.1:5500/mini/img/shop/150000/3.jpg"
+        },
+        {
+            "code": 150000,
+            "name": "烤鸭",
+            "id": 9,
+            "url": "http://127.0.0.1:5500/mini/img/shop/150000/4.jpg"
+        },
+        {
+            "code": 150000,
+            "name": "烤鸭",
+            "id": 10,
+            "url": "http://127.0.0.1:5500/mini/img/shop/150000/5.jpg"
+        },
+        {
+            "code": 150000,
+            "name": "烤鸭",
+            "id": 11,
+            "url": "http://127.0.0.1:5500/mini/img/shop/150000/6.jpg"
+        },
+        {
+            "code": 150000,
+            "name": "烤鸭",
+            "id": 9,
+            "url": "http://127.0.0.1:5500/mini/img/shop/150000/7.jpg"
+        },
+        {
+            "code": 150000,
+            "name": "烤鸭",
+            "id": 10,
+            "url": "http://127.0.0.1:5500/mini/img/shop/150000/8.jpg"
+        },
+        {
+            "code": 150000,
+            "name": "烤鸭",
+            "id": 11,
+            "url": "http://127.0.0.1:5500/mini/img/shop/150000/9.jpg"
+        },
+        {
+            "code": 150000,
+            "name": "烤鸭",
+            "id": 9,
+            "url": "http://127.0.0.1:5500/mini/img/shop/150000/10.jpg"
+        },
+        {
+            "code": 150000,
+            "name": "烤鸭",
+            "id": 10,
+            "url": "http://127.0.0.1:5500/mini/img/shop/150000/11.jpg"
+        },
+        {
+            "code": 150000,
+            "name": "烤鸭",
+            "id": 11,
+            "url": "http://127.0.0.1:5500/mini/img/shop/150000/12.jpg"
+        }
+    ]
+}
