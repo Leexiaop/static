@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "光阴的故事",
+        "type": 1,
+        "classify": 1,
+        "images": [
+            "http://127.0.0.1:5500/mini/img/guitar/songs/光阴的故事/光阴的故事_1.webp",
+            "http://127.0.0.1:5500/mini/img/guitar/songs/光阴的故事/光阴的故事_2.webp"
+        ]
+    }
+]
