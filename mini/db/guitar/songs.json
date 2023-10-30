@@ -126,5 +126,15 @@
             "https://leexiaop.github.io/static/mini/img/guitar/guitar/纸短情长/纸短情长_1.jpg",
             "https://leexiaop.github.io/static/mini/img/guitar/guitar/纸短情长/纸短情长_2.jpg"
         ]
+    },
+    {
+        "id": 10,
+        "name": "故乡",
+        "type": 1,
+        "classify": 1,
+        "images": [
+            "https://leexiaop.github.io/static/mini/img/guitar/guitar/故乡/故乡_1.webp",
+            "https://leexiaop.github.io/static/mini/img/guitar/guitar/故乡/故乡_2.webp"
+        ]
     }
 ]

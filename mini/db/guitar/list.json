@@ -81,6 +81,14 @@
     },
     {
         "id": 11,
+        "type": 1,
+        "name": "故乡",
+        "classify": 1,
+        "author": "筷子兄弟",
+        "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/许巍.webp"
+    },
+    {
+        "id": 11,
         "type": 2,
         "name": "当我想你的时候",
         "author": "汪峰",
