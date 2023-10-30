@@ -1,159 +1,44 @@
 [
     {
-        "code": 110000,
-        "name": "烤鸭",
+        "code": 150000,
+        "name": "散装牛肉干",
         "id": 1,
-        "url": "https://leexiaop.github.io/static/mini/img/advanced_1.png"
+        "url": "http://127.0.0.1:5500/mini/img/shop/1.png",
+        "desc": "牛肉干作为一种肉类零食，具有丰富的蛋白质、维生素和矿物质。它具有嚼劲十足、口感鲜美的特点，适合作为户外活动、旅行、办公室小吃等场合的零食选择。此外，牛肉干还可以作为高蛋白低脂肪的健康零食，提供长时间的饱腹感和能量补充。需要注意的是，不同品牌和制作方法的牛肉干口感和味道可能会有所差异。在选择牛肉干时，可以根据个人口味和偏好选择适合自己的品牌和口味。同时，注意选择质量可靠、无添加剂和防腐剂的产品，以确保食品安全和健康。"
     },
     {
-        "code": 110000,
-        "name": "烤鸭",
+        "code": 150000,
+        "name": "马奶酒",
         "id": 2,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
+        "url": "http://127.0.0.1:5500/mini/img/shop/2.png",
+        "desc": "马奶酒是一种以马奶为原料制作的酒类饮品。马奶酒在一些地方被视为传统的饮品，尤其在蒙古和哈萨克斯坦等地区。制作马奶酒需要将新鲜的马奶发酵，通常是通过将马奶与乳酸菌混合并进行发酵过程。这个过程会使马奶中的乳糖转化为乳酸，从而产生酸味和微量的酒精。马奶酒的味道通常带有一些酸甜的口感，有些人形容它类似于酸奶和啤酒的结合。它具有浓郁的乳香味和一定的酒精度数，通常在2%至7%之间。马奶酒在一些地方被视为一种有益健康的饮品，据说对消化系统有一定的帮助。此外，马奶酒也被认为具有一些药用价值，被用于传统医学中治疗一些疾病。然而，需要注意的是，马奶酒可能不适合所有人。对于某些人来说，马奶酒可能引起过敏反应或消化不良。因此，在饮用马奶酒之前，最好先了解自己的身体状况并咨询医生的建议。总的来说，马奶酒是一种独特的饮品，具有特殊的风味和文化背景。如果您对这种饮品感兴趣，可以尝试一下，体验其中的风味和文化魅力。"
+    },
+    {
+        "code": 150000,
+        "name": "牧之父·牛肉干",
         "id": 3,
-        "url": "https://leexiaop.github.io/static/mini/img/advanced_4.png"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
+        "url": "http://127.0.0.1:5500/mini/img/shop/3.png",
+        "desc": "牧之父·牛肉干——原汁原味的牛肉风味！牧之父·牛肉干是一款经典的肉类零食，以优质牛肉为原料精心制作而成。我们选用新鲜的牛肉，经过精细的切割和调味，再经过特殊的烘烤工艺，保留了牛肉的鲜美风味和嚼劲。每一块牧之父·牛肉干都是由牧场中的优质牛肉制成，肉质鲜嫩多汁，口感细腻。我们严格控制制作过程中的温度和时间，确保每一块牛肉干都能保持最佳的口感和风味。牧之父·牛肉干不仅是一款美味的零食，还是一种健康的选择。牛肉富含蛋白质和营养元素，能为您提供长时间的饱腹感和能量补充。无论是户外活动、办公室小吃还是下午茶，牧之父·牛肉干都是您最佳的伴侣。我们承诺，每一包牧之父·牛肉干都是经过严格的质量控制和品质检测的，确保给您带来安心和放心的美食享受。无添加剂和防腐剂，让您品尝到真正的牛肉风味。现在，就让我们一起品尝这款原汁原味的牧之父·牛肉干吧！让您的味蕾沉浸在牛肉的醇香和咀嚼的乐趣中，感受美食的魅力！"
+    },
+    {
+        "code": 150000,
+        "name": "锡林春泽·水果奶块",
         "id": 4,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
+        "url": "http://127.0.0.1:5500/mini/img/shop/4.png",
+        "desc": "锡林春泽·水果奶块——天然水果的美味结合！锡林春泽·水果奶块是一款独特的美食，将新鲜的水果与香浓的奶味完美融合，为您带来绝妙的口感和无与伦比的味道。我们的水果奶块选用了来自大自然的新鲜水果，经过精心的加工和制作工艺，保留了水果的天然甜味和细腻口感。每一块奶块都蕴含着水果的鲜美，让您在品尝的同时也能感受到水果的清新和健康。不仅如此，锡林春泽·水果奶块还有着丰富的营养成分，富含维生素和矿物质，为您提供健康的能量补充。无论是作为零食还是健康小食，它都是您最佳的选择。无论是享用自己还是与家人朋友分享，锡林春泽·水果奶块都能带给您愉悦的味觉体验。让您在繁忙的生活中，感受到大自然的恩赐和健康的滋养。现在，就让我们一起品尝这款美味的锡林春泽·水果奶块吧！让您的味蕾沉浸在新鲜水果和香浓奶味的交织中，享受美食的魅力！"
+    },
+    {
+        "code": 150000,
+        "name": "锡林春泽·考奶酪",
         "id": 5,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
+        "url": "http://127.0.0.1:5500/mini/img/shop/5.png",
+        "desc": "锡林春泽·考奶酪，是一款来自内蒙古的特色美食，它的独特口感和浓郁香味，让人一尝难忘。现在，我们将这款美味带给更多的人，让你也能品尝到这种独特的口感和味道。我们的锡林春泽·考奶酪，采用最优质的牛奶和糖制成，经过严格的工艺流程和精细的制作工艺，每一块奶酪都是精心呵护的产物。它不仅有着浓郁的乳香和绵软的口感，还有着独特的烟熏味道，让你在品尝的同时也能享受到视觉和嗅觉上的美感。无论是作为零食还是小礼物，锡林春泽·考奶酪都是最佳的选择。它不仅能满足你的味蕾，还能让你感受到来自草原的纯净和自然。每一块奶酪都是我们用心制作的产物，带给你的不仅是美味，更是我们的真诚和热情。现在，就让我们一起来品尝这款美味的锡林春泽·考奶酪吧！无论是自己品尝还是送给朋友，它都是最好的选择。让我们一起享受这种独特的味道和感觉，感受来自草原的自然和纯净！"
+    },
+    {
+        "code": 150000,
+        "name": "蒙牧情·蒙古黑奶糖",
         "id": 6,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 7,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 8,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 9,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 10,
-        "url": "https://leexiaop.github.io/static/mini/img/javascript/3.jpg"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 11,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 12,
-        "url": "https://leexiaop.github.io/static/mini/img/advanced_2.png"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 13,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 14,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 15,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 16,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 17,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 18,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 19,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 20,
-        "url": "https://leexiaop.github.io/static/mini/img/poster.jpg"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 21,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 22,
-        "url": "https://leexiaop.github.io/static/mini/img/advanced_1.png"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 23,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 24,
-        "url": "https://leexiaop.github.io/static/mini/img/1.jpg"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 25,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 26,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 27,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 28,
-        "url": "https://leexiaop.github.io/static/mini/img/2.jpg"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 29,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 30,
-        "url": "https://leexiaop.github.io/static/mini/img/center_bg.jpg"
-    }, {
-        "code": 110000,
-        "name": "烤鸭",
-        "id": 31,
-        "url": "https://leexiaop.github.io/static/mini/img/nav_2.webp"
+        "url": "http://127.0.0.1:5500/mini/img/shop/6.png",
+        "desc": "尝过蒙古黑奶糖的人都知道，它是一款令人难以忘怀的美味。每一颗奶糖都散发着浓郁的牛奶香气，让人垂涎欲滴。现在，我们将这款美味带给更多的人，让你也能品尝到这种独特的口感和味道。我们的蒙古黑奶糖采用最优质的牛奶和糖制成，经过严格的工艺流程和精细的制作工艺，每一颗奶糖都是精心呵护的产物。它不仅有着浓郁的牛奶香气和绵软的口感，还有着独特的黑色外观，让你在品尝的同时也能享受到视觉上的美感。无论是作为零食还是小礼物，蒙古黑奶糖都是最佳的选择。它不仅能满足你的味蕾，还能让你感受到来自草原的纯净和自然。每一颗奶糖都是我们用心制作的产物，带给你的不仅是美味，更是我们的真诚和热情。现在，就让我们一起来品尝这款美味的蒙古黑奶糖吧！无论是自己品尝还是送给朋友，它都是最好的选择。让我们一起享受这种独特的味道和感觉，感受来自草原的自然和纯净！"
     }
 ]

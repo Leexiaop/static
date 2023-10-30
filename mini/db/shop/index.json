@@ -1,5 +1,6 @@
 {
-    "navList": [],
+    "navList": [
+    ],
     "list": [
         {
             "code": 100000,
@@ -84,24 +85,6 @@
             "name": "烤鸭",
             "id": 11,
             "url": "http://127.0.0.1:5500/mini/img/shop/150000/9.jpg"
-        },
-        {
-            "code": 150000,
-            "name": "烤鸭",
-            "id": 9,
-            "url": "http://127.0.0.1:5500/mini/img/shop/150000/10.jpg"
-        },
-        {
-            "code": 150000,
-            "name": "烤鸭",
-            "id": 10,
-            "url": "http://127.0.0.1:5500/mini/img/shop/150000/11.jpg"
-        },
-        {
-            "code": 150000,
-            "name": "烤鸭",
-            "id": 11,
-            "url": "http://127.0.0.1:5500/mini/img/shop/150000/12.jpg"
         }
     ]
 }
