@@ -69,7 +69,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "成都",
         "type": 1,
         "classify": 2,
@@ -80,7 +80,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 8,
         "name": "最远的你是我最近的爱",
         "type": 1,
         "classify": 1,
@@ -94,7 +94,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 9,
         "name": "童年",
         "type": 1,
         "classify": 1,
@@ -106,7 +106,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 10,
         "name": "老男孩",
         "type": 1,
         "classify": 1,
@@ -118,7 +118,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 11,
         "name": "纸短情长",
         "type": 1,
         "classify": 1,
@@ -128,13 +128,133 @@
         ]
     },
     {
-        "id": 10,
+        "id": 12,
         "name": "故乡",
         "type": 1,
         "classify": 1,
         "images": [
             "https://leexiaop.github.io/static/mini/img/guitar/guitar/故乡/故乡_1.webp",
             "https://leexiaop.github.io/static/mini/img/guitar/guitar/故乡/故乡_2.webp"
+        ]
+    },
+    {
+        "id": 13,
+        "type": 2,
+        "name": "一次就好",
+        "classify": 1,
+        "images": [
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/一次就好/一次就好.jpg"
+        ]
+    },
+    {
+        "id": 14,
+        "type": 2,
+        "name": "再见",
+        "classify": 1,
+        "images": [
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/再见/再见.jpg"
+        ]
+    },
+    {
+        "id": 15,
+        "type": 2,
+        "name": "北京东路的日子",
+        "classify": 1,
+        "images": [
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/北京东路的日子/北京东路的日子.jpg"
+        ]
+    },
+    {
+        "id": 16,
+        "type": 2,
+        "name": "后来",
+        "classify": 2,
+        "images": [
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/后来/后来_1.jpg",
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/后来/后来_2.jpg"
+        ]
+    },
+    {
+        "id": 17,
+        "type": 2,
+        "name": "夜空中最亮的星",
+        "classify": 2,
+        "images": [
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/夜空中最亮的星/夜空中最亮的星_1.jpg",
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/夜空中最亮的星/夜空中最亮的星_2.jpg",
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/夜空中最亮的星/夜空中最亮的星_3.jpg"
+        ]
+    },
+    {
+        "id": 18,
+        "type": 2,
+        "name": "当你孤单你会想起谁",
+        "classify": 1,
+        "images": [
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/当你孤单你会想起谁/当你孤单你会想起谁_1.jpg",
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/当你孤单你会想起谁/当你孤单你会想起谁_2.jpg"
+        ]
+    },
+    {
+        "id": 19,
+        "type": 2,
+        "name": "思念是一种病",
+        "classify": 1,
+        "images": [
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/思念是一种病/思念是一种病_1.jpg",
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/思念是一种病/思念是一种病_2.jpg",
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/思念是一种病/思念是一种病_3.jpg",
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/思念是一种病/思念是一种病_4.jpg"
+        ]
+    },
+    {
+        "id": 20,
+        "type": 2,
+        "classify": 2,
+        "name": "童话",
+        "images": [
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/童话/童话_1.jpg",
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/童话/童话_2.jpg"
+        ]
+    },
+    {
+        "id": 21,
+        "type": 2,
+        "classify": 1,
+        "name": "稻香",
+        "images": [
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/稻香/稻香_1.jpg",
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/稻香/稻香_2.jpg",
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/稻香/稻香_3.jpg"
+        ]
+    },
+    {
+        "id": 22,
+        "type": 2,
+        "name": "情非得已",
+        "classify": 1,
+        "images": [
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/情非得已/情非得已_1.jpg",
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/情非得已/情非得已_2.jpg"
+        ]
+    },
+    {
+        "id": 23,
+        "type": 2,
+        "name": "愿得一人心",
+        "classify": 2,
+        "images": [
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/愿得一人心/愿得一人心_1.jpg",
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/愿得一人心/愿得一人心_2.jpg"
+        ]
+    },
+    {
+        "id": 24,
+        "type": 2,
+        "name": "起风了",
+        "classify": 1,
+        "images": [
+            "https://leexiaop.github.io/static/mini/img/guitar/ukulee/起风了/起风了.jpg"
         ]
     }
 ]
