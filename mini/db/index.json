@@ -147,65 +147,74 @@
         {
             "id": 10,
             "type": 2,
-            "name": "当我想你的时候",
-            "author": "汪峰",
-            "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/汪峰.webp"
+            "name": "一次就好",
+            "classify": 1,
+            "author": "杨宗纬",
+            "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/杨宗纬.webp"
         },
         {
             "id": 11,
             "type": 2,
-            "name": "成都",
-            "classify": 2,
-            "author": "赵雷",
-            "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/赵雷.webp"
+            "name": "再见",
+            "classify": 1,
+            "author": "张震岳",
+            "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/张震岳.webp"
         },
         {
             "id": 12,
             "type": 2,
-            "name": "同桌的你",
-            "classify": 2,
-            "author": "老狼",
-            "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/老狼.webp"
+            "name": "北京东路的日子",
+            "classify": 1,
+            "author": "南京外国语学校2010届高三6班",
+            "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/南京外国语学校2010届高三6班.webp"
         },
         {
             "id": 13,
             "type": 2,
-            "name": "童年",
+            "name": "后来",
             "classify": 2,
-            "author": "罗大佑",
-            "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/罗大佑.webp"
+            "author": "刘若英",
+            "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/刘若英.webp"
         },
         {
             "id": 14,
             "type": 2,
             "name": "夜空中最亮的星",
-            "classify": 1,
+            "classify": 2,
             "author":"逃跑计划",
             "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/逃跑计划.webp"
         },
         {
             "id": 15,
             "type": 2,
-            "name": "勇气",
+            "name": "当你孤单你会想起谁",
             "classify": 1,
-            "author":"梁静茹",
-            "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/梁静茹.webp"
+            "author":"张栋梁",
+            "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/张栋梁.webp"
         },
         {
             "id": 16,
             "type": 2,
-            "name": "约定",
+            "name": "思念是一种病",
             "classify": 1,
-            "author":"周慧",
-            "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/周慧.webp"
+            "author":"张震岳",
+            "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/张震岳.webp"
         },
         {
             "id": 17,
             "type": 2,
-            "classify": 1,
-            "name": "通话",
+            "classify": 2,
+            "name": "童话",
             "author":"光良",
             "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/光良.webp"
+        },
+        {
+            "id": 18,
+            "type": 2,
+            "classify": 1,
+            "name": "稻香",
+            "author":"周杰伦",
+            "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/周杰伦.webp"
         }
     ]
 }
