@@ -44,31 +44,31 @@
             "code": 150000,
             "name": "马奶酒",
             "id": 2,
-            "url": "https://leexiaop.github.io/static/mini/img/shop/2.webp"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/1.png"
         },
         {
             "code": 150000,
             "name": "牧之父·牛肉干",
             "id": 3,
-            "url": "https://leexiaop.github.io/static/mini/img/shop/3.png"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/1.png"
         },
         {
             "code": 150000,
             "name": "锡林春泽·水果奶块",
             "id": 4,
-            "url": "https://leexiaop.github.io/static/mini/img/shop/4.png"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/1.png"
         },
         {
             "code": 150000,
             "name": "锡林春泽·考奶酪",
             "id": 5,
-            "url": "https://leexiaop.github.io/static/mini/img/shop/5.png"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/1.png"
         },
         {
             "code": 150000,
             "name": "蒙牧情·蒙古黑奶糖",
             "id": 6,
-            "url": "https://leexiaop.github.io/static/mini/img/shop/6.png"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/1.png"
         }
     ],
     "guitarList": [
