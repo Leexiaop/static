@@ -10,61 +10,61 @@
             "code": 100000,
             "name": "蒙兴利·风干牛肉干",
             "id": 17,
-            "url": "http://127.0.0.1:5500/mini/img/shop/100000/1.jpg"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/100000/1.jpg"
         },
         {
             "code": 150000,
             "name": "锡林春泽·酸奶酪",
             "id": 8,
-            "url": "http://127.0.0.1:5500/mini/img/shop/150000/13.jpg"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/150000/13.jpg"
         },
         {
             "code": 150000,
             "name": "蒙牧情·老酸奶奶贝",
             "id": 9,
-            "url": "http://127.0.0.1:5500/mini/img/shop/150000/14.jpg"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/150000/14.jpg"
         },
         {
             "code": 150000,
             "name": "朗腾草原·碳烤牛肉干",
             "id": 10,
-            "url": "http://127.0.0.1:5500/mini/img/shop/150000/15.jpg"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/150000/15.jpg"
         },
         {
             "code": 150000,
             "name": "远古部落·焖倒驴白酒",
             "id": 11,
-            "url": "http://127.0.0.1:5500/mini/img/shop/150000/12.jpg"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/150000/12.jpg"
         },
         {
             "code": 150000,
             "name": "蒙牧情·奶酪提子奶豆",
             "id": 12,
-            "url": "http://127.0.0.1:5500/mini/img/shop/150000/17.jpg"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/150000/17.jpg"
         },
         {
             "code": 150000,
             "name": "草原金鹰·水果奶酪",
             "id": 13,
-            "url": "http://127.0.0.1:5500/mini/img/shop/150000/18.jpg"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/150000/18.jpg"
         },
         {
             "code": 150000,
             "name": "蒙牧情·驼源奶贝",
             "id": 14,
-            "url": "http://127.0.0.1:5500/mini/img/shop/150000/19.jpg"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/150000/19.jpg"
         },
         {
             "code": 150000,
             "name": "盛御斋·蒙古烤羊腿",
             "id": 16,
-            "url": "http://127.0.0.1:5500/mini/img/shop/150000/21.jpg"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/150000/21.jpg"
         },
         {
             "code": 150000,
             "name": "乌云·风干牛肉干",
             "id": 15,
-            "url": "http://127.0.0.1:5500/mini/img/shop/150000/20.jpg"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/150000/20.jpg"
         }
     ]
 }

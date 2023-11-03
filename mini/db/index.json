@@ -10,25 +10,25 @@
     "javascriptList": [
         {
             "id": 1,
-            "img": "http://127.0.0.1:5500/mini/img/javascript/data_structure.webp",
+            "img": "https://leexiaop.github.io/static/mini/img/javascript/data_structure.webp",
             "origin": "leetcode",
             "title": "前端算法"
         },
         {
             "id": 2,
-            "img": "http://127.0.0.1:5500/mini/img/javascript/react_code.png",
+            "img": "https://leexiaop.github.io/static/mini/img/javascript/react_code.png",
             "origin": "react",
             "title": "React源码解析"
         },
         {
             "id": 3,
-            "img": "http://127.0.0.1:5500/mini/img/javascript/threejs.png",
+            "img": "https://leexiaop.github.io/static/mini/img/javascript/threejs.png",
             "origin": "threejs_case",
             "title": "ThreeJS案例"
         },
         {
             "id": 4,
-            "img": "http://127.0.0.1:5500/mini/img/javascript/design_pattern.png",
+            "img": "https://leexiaop.github.io/static/mini/img/javascript/design_pattern.png",
             "origin": "design_pattern",
             "title": "前端设计模式"
         }
@@ -38,43 +38,43 @@
             "code": 150000,
             "name": "散装牛肉干",
             "id": 1,
-            "url": "http://127.0.0.1:5500/mini/img/shop/150000/1.png"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/150000/1.png"
         },
         {
             "code": 150000,
             "name": "牧之父·牛肉干",
             "id": 2,
-            "url": "http://127.0.0.1:5500/mini/img/shop/150000/2.jpg"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/150000/2.jpg"
         },
         {
             "code": 150000,
             "name": "蒙牧情·奶山楂糕",
             "id": 3,
-            "url": "http://127.0.0.1:5500/mini/img/shop/150000/3.jpg"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/150000/3.jpg"
         },
         {
             "code": 150000,
             "name": "塔拉牧歌·奶酒",
             "id": 4,
-            "url": "http://127.0.0.1:5500/mini/img/shop/150000/4.jpg"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/150000/4.jpg"
         },
         {
             "code": 150000,
             "name": "锡林春泽·水果奶块",
             "id": 5,
-            "url": "http://127.0.0.1:5500/mini/img/shop/150000/5.jpg"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/150000/5.jpg"
         },
         {
             "code": 150000,
             "name": "锡林春泽·烤奶酪",
             "id": 6,
-            "url": "http://127.0.0.1:5500/mini/img/shop/150000/6.jpg"
+            "url": "https://leexiaop.github.io/static/mini/img/shop/150000/6.jpg"
         },
         {
             "code": 150000,
             "name": "八斯巴蒙古奶糖",
             "id": 7,
-            "url": "http://127.0.0.1:5500//mini/img/shop/150000/11.jpg"
+            "url": "https://leexiaop.github.io/static//mini/img/shop/150000/11.jpg"
         }
     ],
     "guitarList": [
