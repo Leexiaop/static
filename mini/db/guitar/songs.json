@@ -256,5 +256,15 @@
         "images": [
             "https://leexiaop.github.io/static/mini/img/guitar/ukulele/起风了/起风了.jpg"
         ]
+    },
+    {
+        "id": 25,
+        "type": 1,
+        "name": "王招君",
+        "classify": 2,
+        "images": [
+            "https://leexiaop.github.io/static/mini/img/guitar/guitar/王招君/王招君_1.webp",
+            "https://leexiaop.github.io/static/mini/img/guitar/guitar/王招君/王招君_2.webp"
+        ]
     }
 ]
