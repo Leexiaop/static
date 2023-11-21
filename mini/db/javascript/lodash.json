@@ -1,4 +1,5 @@
 [
     "概览",
-    "lodash数组方法之_.slice解析"
+    "lodash数组方法之_.slice解析",
+    "lodash语言方法之_.isObject解析"
 ]
