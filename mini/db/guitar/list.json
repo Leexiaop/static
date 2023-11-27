@@ -65,7 +65,7 @@
     },
     {
         "id": 9,
-        "type": 2,
+        "type": 1,
         "name": "纸短情长",
         "classify": 1,
         "author": "烟儿乐队",
@@ -189,6 +189,6 @@
         "name": "王招君",
         "classify": 2,
         "author": "任素汐",
-        "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/任素汐.wepb"
+        "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/任素汐.webp"
     }
 ]
