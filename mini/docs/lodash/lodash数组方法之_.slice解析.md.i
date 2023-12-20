@@ -8,7 +8,6 @@ _.slice(array, [start=0], [end=array.length])
 
         Note: 这个方法用于代替Array#slice 来确保数组正确返回。
 
-
 + 参数
     array (Array): 要裁剪数组。
     [start=0] (number): 开始位置。
