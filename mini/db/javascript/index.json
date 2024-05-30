@@ -96,7 +96,7 @@
     {
         "title": "Golang语言",
         "icon": "p",
-        "disabled": false,
+        "disabled": true,
         "motto": "Golang是一种非常优秀的开源语言，它在网络编程、分布式系统、容器等领域具有非常显著的优势和性能。对于开发者来说，学习Golang是非常值得的。它的编程风格简单，语言规范严谨，而且技术栈的丰富和社区的活跃可以说是前所未有的。",
         "url": "golang"
     }
