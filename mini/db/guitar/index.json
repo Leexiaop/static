@@ -1,24 +1,6 @@
 {
     "navList": [
-        "https://leexiaop.github.io/static/mini/img/guitar/nav_1.jpg",
-        "https://leexiaop.github.io/static/mini/img/guitar/nav_2.jpg"
     ],
     "list": [
-        {
-            "id": 8,
-            "type": 1,
-            "name": "童年",
-            "classify": 1,
-            "author": "罗大佑",
-            "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/罗大佑.webp"
-        },
-        {
-            "id": 9,
-            "type": 2,
-            "name": "起风了",
-            "classify": 1,
-            "author": "周深",
-            "avatar": "https://leexiaop.github.io/static/mini/img/guitar/avatar/周深.webp"
-        }
     ]
 }
